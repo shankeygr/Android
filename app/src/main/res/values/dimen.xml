@@ -1,0 +1,440 @@
+
+<resources>
+
+    <!-- Global values -->
+    <dimen name="keyboard_height">340dp</dimen>
+    <dimen name="inset_shadow_view_height">2dp</dimen>
+    <dimen name="divider_thin_view_height">0.2dp</dimen>
+    <dimen name="divider_view_height">0.5dp</dimen>
+
+    <!--Font-->
+    <dimen name="font_size_atto">7sp</dimen>
+    <dimen name="font_size_femto">8sp</dimen>
+    <dimen name="font_size_pico">9sp</dimen>
+    <dimen name="font_size_nano">10sp</dimen>
+    <dimen name="font_size_micro">11sp</dimen>
+    <dimen name="font_size_tiny">12sp</dimen>
+    <dimen name="font_size_small">13sp</dimen>
+    <dimen name="font_size_mini">14sp</dimen>
+    <dimen name="font_size_medium">15sp</dimen>
+    <dimen name="font_size_xmedium">16sp</dimen>
+    <dimen name="font_size_xxmedium">17sp</dimen>
+    <dimen name="font_size_large">18sp</dimen>
+    <dimen name="font_size_xlarge">19sp</dimen>
+    <dimen name="font_size_xxlarge">21sp</dimen>
+    <dimen name="font_size_xxxlarge">23sp</dimen>
+    <dimen name="font_size_xxxxlarge">24sp</dimen>
+    <dimen name="font_size_mega">27sp</dimen>
+    <dimen name="font_size_tera">32sp</dimen>
+    <dimen name="font_size_giga">35sp</dimen>
+
+    <dimen name="edit_text_font_size_small">13sp</dimen>
+    <dimen name="edit_text_font_size_medium">15sp</dimen>
+    <dimen name="edit_text_font_size_large">17sp</dimen>
+
+    <dimen name="custom_submit_button_font_size_small">13sp</dimen>
+    <!--Font Icon-->
+    <dimen name="font_icon_size_3">3sp</dimen>
+    <dimen name="font_icon_size_5">5sp</dimen>
+    <dimen name="font_icon_size_8">8sp</dimen>
+    <dimen name="font_icon_size_9">9sp</dimen>
+    <dimen name="font_icon_size_10">10sp</dimen>
+    <dimen name="font_icon_size_11">11sp</dimen>
+    <dimen name="font_icon_size_12">12sp</dimen>
+    <dimen name="font_icon_size_13">13sp</dimen>
+    <dimen name="font_icon_size_14">14sp</dimen>
+    <dimen name="font_icon_size_15">15sp</dimen>
+    <dimen name="font_icon_size_16">16sp</dimen>
+    <dimen name="font_icon_size_18">18sp</dimen>
+    <dimen name="font_icon_size_20">20sp</dimen>
+    <dimen name="font_icon_size_22">22sp</dimen>
+    <dimen name="font_icon_size_24">24sp</dimen>
+    <dimen name="font_icon_size_26">26sp</dimen>
+    <dimen name="font_icon_size_28">28sp</dimen>
+    <dimen name="font_icon_size_30">30sp</dimen>
+    <dimen name="font_icon_size_36">36sp</dimen>
+
+    <dimen name="font_icon_size_4dp">4dp</dimen>
+    <dimen name="font_icon_size_12dp">12dp</dimen>
+    <dimen name="font_icon_size_14dp">14dp</dimen>
+    <dimen name="font_icon_size_16dp">16dp</dimen>
+
+    <!--Horizontal Padding-->
+
+    <dimen name="horizontal_padding_2dp">2dp</dimen>
+    <dimen name="horizontal_padding_mini">3dp</dimen>
+    <dimen name="horizontal_padding_milli">4dp</dimen>
+    <dimen name="horizontal_padding_micro">6dp</dimen>
+    <dimen name="horizontal_padding_xmicro">8dp</dimen>
+    <dimen name="horizontal_padding_microsmall">10dp</dimen>
+    <dimen name="horizontal_padding_small">12dp</dimen>
+    <dimen name="horizontal_padding_xsmall">14dp</dimen>
+    <dimen name="horizontal_padding_xxsmall">16dp</dimen>
+    <dimen name="abc_action_bar_default_padding_material">16dp</dimen>
+    <dimen name="horizontal_padding_medium">18dp</dimen>
+    <dimen name="horizontal_padding_large">20dp</dimen>
+    <dimen name="horizontal_padding_xlarge">24dp</dimen>
+    <dimen name="horizontal_padding_xxlarge">32dp</dimen>
+    <dimen name="horizontal_padding_36">36dp</dimen>
+    <dimen name="horizontal_padding_xxxlarge">48dp</dimen>
+    <dimen name="horizontal_padding_jumbo">60dp</dimen>
+    <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
+    <dimen name="abc_dialog_list_padding_vertical_material">8dp</dimen>
+    <dimen name="zero">0dp</dimen>
+
+    <dimen name="empty_state_image_width">192dp</dimen>
+    <dimen name="empty_state_image_height">192dp</dimen>
+
+    <!--Vertical Padding-->
+    <dimen name="vertical_padding_0.5dp">0.5dp</dimen>
+    <dimen name="vertical_padding_1dp">1dp</dimen>
+    <dimen name="vertical_padding_2dp">2dp</dimen>
+    <dimen name="vertical_padding_mini">3dp</dimen>
+    <dimen name="vertical_padding_milli">4dp</dimen>
+    <dimen name="vertical_padding_micro">6dp</dimen>
+    <dimen name="vertical_padding_microsmall">8dp</dimen>
+    <dimen name="vertical_padding_xmicrosmall">9dp</dimen>
+    <dimen name="vertical_padding_minismall">10dp</dimen>
+    <dimen name="vertical_padding_small">12dp</dimen>
+    <dimen name="vertical_padding_xsmall">14dp</dimen>
+    <dimen name="vertical_padding_regular">16dp</dimen>
+    <dimen name="vertical_padding_medium">18dp</dimen>
+    <dimen name="vertical_padding_large">20dp</dimen>
+    <dimen name="vertical_padding_xlarge">24dp</dimen>
+    <dimen name="vertical_padding_30">30dp</dimen>
+    <dimen name="vertical_padding_xxlarge">32dp</dimen>
+    <dimen name="vertical_padding_xxxlarge">36dp</dimen>
+    <dimen name="vertical_padding_40">40dp</dimen>
+
+    <!--Margins-->
+    <dimen name="margin_0.5">0.5dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_54">54dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+
+    <!-- view Heights -->
+    <dimen name="view_height_normal">48dp</dimen>
+    <dimen name="loading_indicator_size">30dp</dimen>
+    <dimen name="button_vertical_margin">28dp</dimen>
+    <dimen name="cart_upsell_header_height">54dp</dimen>
+    <dimen name="cart_upsell_shadow_height">4dp</dimen>
+    <dimen name="cart_upsell_image_size">80dp</dimen>
+    <dimen name="cart_upsell_default_widget_height">316dp</dimen>
+
+    <!-- Order History Text Icon Tick Fonts-->
+
+    <dimen name="activity_order_history_icon_font">25sp</dimen>
+    <dimen name="activity_order_history_icon_size">35dp</dimen>
+
+    <!-- Thank You Screen -->
+    <dimen name="thankyou_image_width">104dp</dimen>
+    <dimen name="thankyou_image_height">115dp</dimen>
+    <dimen name="thankyou_day">30sp</dimen>
+    <dimen name="thankyou_tick">40sp</dimen>
+
+    <dimen name="action_bar_size">56dp</dimen>
+
+    <!-- Circular Image Size-->
+    <dimen name="circular_image_size">82dp</dimen>
+
+    <!-- Padding in some areas -->
+    <dimen name="padding_custom_10dp">10dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="activity_vertical_margin_half">8dp</dimen>
+    <dimen name="activity_horizontal_margin_half">8dp</dimen>
+
+    <dimen name="activity_vertical_margin_double">16dp</dimen>
+    <dimen name="activity_horizontal_margin_double">16dp</dimen>
+
+    <dimen name="store_info_fragment_margin_horizontal">24dp</dimen>
+    <dimen name="store_info_fragment_margin_vertical">24dp</dimen>
+
+    <dimen name="store_info_fragment_margin_top">26dp</dimen>
+    <dimen name="store_info_fragment_margin_left">20dp</dimen>
+    <dimen name="store_info_margin_horizontal">16dp</dimen>
+
+    <dimen name="product_detail_fragment_vertical">20dp</dimen>
+
+    <dimen name="merchant_info_icon">40sp</dimen>
+
+    <!-- Text sizes -->
+
+    <dimen name="list_text_size_macro">10sp</dimen>
+    <dimen name="list_text_size_micro">12sp</dimen>
+    <dimen name="list_text_size_small">14sp</dimen>
+    <dimen name="list_text_size_xmedium">16sp</dimen>
+    <dimen name="list_text_size_medium">18sp</dimen>
+    <dimen name="list_text_size_large">20sp</dimen>
+    <dimen name="list_text_size_larger">24sp</dimen>
+
+    <dimen name="text_xlarge">36sp</dimen>
+    <dimen name="text_xxlarge">72sp</dimen>
+    <dimen name="text_xxlarge_7">100sp</dimen>
+    <dimen name="text_xxlarge_10">100sp</dimen>
+
+    <dimen name="delivery_status_text_size">8sp</dimen>
+
+    <dimen name="list_text_size_large_plus">36sp</dimen>
+
+    <!-- icon sizes -->
+    <dimen name="icon_size_micro">16dp</dimen>
+
+
+    <!-- fragment_store_details_activity.xml -->
+    <dimen name="store_details_margin">10dp</dimen>
+
+    <!-- fragment_main.xml -->
+    <dimen name="buttons_margin">8dp</dimen>
+
+    <!-- activity_pick_locality.xml -->
+    <dimen name="search_button_margin_right">8dp</dimen>
+
+
+    <!-- single_row_merchants_list.xml -->
+    <dimen name="estimate_time_text_size">30sp</dimen>
+
+    <!-- no_data_page.xml -->
+    <dimen name="margin_between_image_and_text">32dp</dimen>
+
+    <!-- map marker -->
+    <dimen name="marker_horizontal_padding">10dp</dimen>
+    <dimen name="marker_vertical_padding">10dp</dimen>
+    <dimen name="product_list_margin_left">16dp</dimen>
+
+
+    <dimen name="merchant_list_vertical">12dp</dimen>
+    <dimen name="merchant_list_horizontal">18dp</dimen>
+    <dimen name="merchant_list_padding_horizontal_medium">14dp</dimen>
+    <dimen name="merchant_list_promotion_height">180dp</dimen>
+    <dimen name="merchant_product_page_option">22dp</dimen>
+
+    <dimen name="side_padding">50dp</dimen>
+    <dimen name="side_padding_half">25dp</dimen>
+
+    <dimen name="clock_icon_margin">8dp</dimen>
+    <dimen name="list_view_item_horizontal_margin">4dp</dimen>
+
+    <dimen name="merchant_list_header_height">36dp</dimen>
+
+    <dimen name="margin_left_eta">3dp</dimen>
+    <dimen name="margin_left_min">2dp</dimen>
+    <dimen name="margin_left_time_icon">5dp</dimen>
+
+    <dimen name="actionbar_margin_horizontal">6dp</dimen>
+
+    <!-- Custom action bar -->
+    <dimen name="actionbar_margin_horizontal_half">6dp</dimen>
+    <dimen name="actionbar_icon_size">24dp</dimen>
+    <dimen name="actionbar_icon_size_micro">12dp</dimen>
+
+    <dimen name="checkout_button_height">48dp</dimen>
+    <dimen name="bottom_button_height">48dp</dimen>
+
+    <!-- No Resource Fragment-->
+    <dimen name="noresource_button_height">36dp</dimen>
+
+    <dimen name="rating_star_size">28sp</dimen>
+
+    <!-- Custom Paddings -->
+    <dimen name="merchant_info_vertical_padding">20dp</dimen>
+    <dimen name="merchant_info_box_padding">12dp</dimen>
+    <dimen name="order_history_detail_cell_padding">12dp</dimen>
+    <dimen name="order_history_detail_cell_padding_half">6dp</dimen>
+    <dimen name="order_history_cell_padding">12dp</dimen>
+    <dimen name="order_history_cell_padding_half">6dp</dimen>
+    <dimen name="merchant_action_bar_icon">6dp</dimen>
+    <dimen name="cart_text_view_small_margin">6dp</dimen>
+    <dimen name="layout_top_padding">24dp</dimen>
+    <dimen name="cart_dot_horizontal_margin_left">24dp</dimen>
+    <dimen name="layout_padding_vertical">18dp</dimen>
+    <dimen name="layout_padding_horizontal">18dp</dimen>
+    <dimen name="cart_seperator_1_margin">16dp</dimen>
+    <dimen name="btn_add_remove_padding">4dp</dimen>
+
+    <!-- MerchantSearch Text Size -->
+
+    <dimen name="merchant_name">@dimen/font_size_medium</dimen>
+    <dimen name="merchant_category">@dimen/list_text_size_small</dimen>
+    <dimen name="min_delivery">@dimen/font_icon_size_8</dimen>
+    <dimen name="merchant_estimate_time">@dimen/list_text_size_micro</dimen>
+    <dimen name="merchant_estimate_time_clock_icon">11sp</dimen>
+    <dimen name="merchant_estimate_time_calender_icon">10sp</dimen>
+    <dimen name="navigation_drawer_item_height">24dp</dimen>
+    <dimen name="navigation_drawer_horizontal_padding">24dp</dimen>
+    <dimen name="navigation_drawer_horizontal_padding_icon">20dp</dimen>
+    <dimen name="navigation_drawer_icon_text_margin">16dp</dimen>
+    <dimen name="navigation_drawer_vertical_padding">16dp</dimen>
+    <dimen name="navigation_drawer_divider_padding_vertical">12dp</dimen>
+    <dimen name="navigation_drawer_divider_padding_vertical_double">24dp</dimen>
+    <dimen name="navigation_drawer_vertical_margin_end">8dp</dimen>
+    <dimen name="navigation_drawer_button_height">38dp</dimen>
+
+
+    <!--Segmented Radio Button -->
+    <dimen name="radio_button_conner_radius">3dp</dimen>
+    <dimen name="ic_user_location_size">54dp</dimen>
+    <dimen name="padding_tick_icon_action_bar">10dp</dimen>
+
+    <!-- Action bar cart -->
+    <dimen name="action_bar_back_button">20sp</dimen>
+
+    <!-- Cart Bottom Layout -->
+    <dimen name="count_item_cart">8sp</dimen>
+    <dimen name="count_item_cart_horizontal_margin">34sp</dimen>
+
+    <!-- fragment_store_info -->
+    <dimen name="search_bar_padding_vertical">16dp</dimen>
+    <dimen name="actionbar_size_micro">42dp</dimen>
+    <dimen name="actionbar_size_half">24dp</dimen>
+    <dimen name="actionbar_icon_margin">48dp</dimen>
+
+    <!-- Animation Time -->
+
+    <integer name="loading_animation_time">1200</integer>
+    <dimen name="loading_icon_size">72sp</dimen>
+    <dimen name="error_page_icon_size">96sp</dimen>
+    <dimen name="no_resource_page_margin_double">42dp</dimen>
+    <dimen name="no_resource_page_margin">24dp</dimen>
+    <dimen name="no_resource_page_margin_half">12dp</dimen>
+
+
+    <!-- Custom Dialog Box -->
+    <dimen name="button_height">58dp</dimen>
+
+    <!-- Floating Hint EditText -->
+    <item name="floatinghintedittext_hint_scale" type="dimen" format="float">0.8</item>
+    <item name="floatinghintedittext_animation_steps" type="dimen" format="integer">6</item>
+
+    <!-- ParallaxHeaderView -->
+    <dimen name="header_height">298dp</dimen>
+    <dimen name="min_header_height">250dp</dimen>
+    <dimen name="header_logo_size">100dp</dimen>
+    <dimen name="product_list_cell_size">110dp</dimen>
+    <dimen name="product_cell_height">110dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="referral_award_image_size">96dp</dimen>
+    <dimen name="refferal_award_message_margin_sides">48dp</dimen>
+    <dimen name="referrer_loading_margin_top">128dp</dimen>
+
+    <dimen name="referrer_image_size">96dp</dimen>
+    <dimen name="action_bar_button_height">56dp</dimen>
+    <dimen name="action_bar_button_width">56dp</dimen>
+    <dimen name="profile_picture_width">90dp</dimen>
+    <dimen name="profile_picture_height">90dp</dimen>
+    <dimen name="action_bar_button_width_normal">48dp</dimen>
+    <dimen name="action_bar_button_height_normal">48dp</dimen>
+    <dimen name="referral_separator_width">48dp</dimen>
+    <dimen name="referral_separator_height">2dp</dimen>
+    <dimen name="referral_share_spacing">9dp</dimen>
+    <dimen name="referral_user_case_list">3dp</dimen>
+    <dimen name="referral_user_case_heading">9dp</dimen>
+    <dimen name="progressbar_height">16dp</dimen>
+    <dimen name="progressbar_corner">8dip</dimen>
+    <dimen name="use_case_cell_height">120dp</dimen>
+    <dimen name="card_image_size">40dp</dimen>
+
+    <!-- StoreCard Widget-->
+    <dimen name="storecard_product_image_size">56dp</dimen>
+    <dimen name="storecard_product_image_margin">12dp</dimen>
+    <dimen name="storecard_padding">16dp</dimen>
+
+    <!-- Dimen Checkbox CVV Dialog -->
+    <dimen name="cvv_checkbox_dimen">45dp</dimen>
+    <dimen name="cvv_checkbox_stroke_dimen">20dp</dimen>
+    <dimen name="spinner_cell_height">72dp</dimen>
+
+    <dimen name="search_box_height">56dp</dimen>
+    <dimen name="product_color_radio_button">40dp</dimen>
+    <dimen name="product_filter_os">60dp</dimen>
+    <dimen name="upgrade_img_dimens">63dp</dimen>
+    <dimen name="os_logo">50dp</dimen>
+
+    <dimen name="diagonal_line">1dp</dimen>
+    <dimen name="horizontal_padding_nano">3dp</dimen>
+    <dimen name="vertical_padding_optimal">14dp</dimen>
+
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="screen_side_margin">43dp</dimen>
+    <dimen name="fallback_screen_dim">192dp</dimen>
+    <dimen name="corner_radius">3dp</dimen>
+    <dimen name="font_20">20sp</dimen>
+
+    <dimen name="category_widget_image_width">125dp</dimen>
+    <dimen name="category_widget_image_height">119dp</dimen>
+
+    <dimen name="default_widget_margin">8dp</dimen>
+    <dimen name="toast_margin">24dp</dimen>
+
+    <dimen name="product_cell_image_size">104dp</dimen>
+    <dimen name="product_cell_plus_width">56dp</dimen>
+    <dimen name="product_cell_plus_size">28dp</dimen>
+    <dimen name="product_cell_plus_padding_bottom">20dp</dimen>
+    <dimen name="product_cell_top_margin_from_thumb">18dp</dimen>
+    <dimen name="product_cell_thumb_top_margin">2dp</dimen>
+    <dimen name="product_cell_unit_button_space">9dp</dimen>
+    <dimen name="product_cell_unit_price_space">14dp</dimen>
+    <dimen name="product_cell_add_cart_width">56dp</dimen>
+    <dimen name="product_cell_add_cart_height">28dp</dimen>
+
+    <dimen name="demarcation_shadow_depth">3dp</dimen>
+    <dimen name="demarcation_shadow_depth_neg">-3dp</dimen>
+
+    <dimen name="button_hit_area_padding">10dp</dimen>
+
+    <dimen name="need_help_icon">26dp</dimen>
+    <dimen name="live_chat_icon">20dp</dimen>
+    <dimen name="payment_icon">24dp</dimen>
+    <dimen name="tabs_with_offers_height">66dp</dimen>
+
+    <dimen name="no_resource_image_size_small">144dp</dimen>
+
+    <!--In App Support-->
+    <dimen name="padding_saved_image">36dp</dimen>
+
+    <dimen name="layer_list_drawable_border_stroke_width">0.7dp</dimen>
+
+    <!--InAppDialog-->
+    <dimen name="inapp_dialog_positive_button_height">44dp</dimen>
+
+    <dimen name="material_button_size">42dp</dimen>
+
+
+    <!--PLP Feedback Widget -->
+    <dimen name="feedback_options_height">40dp</dimen>
+    <dimen name="feedback_title_layout_height">12dp</dimen>
+
+    <!--Previously Bought Widget-->
+    <dimen name="previously_bought_image_height">35.5dp</dimen>
+    <dimen name="previously_bought_image_width">32dp</dimen>
+    <dimen name="previously_bought_widget_container_margin">20dp</dimen>
+    <dimen name="previously_bought_widget_image_height">96dp</dimen>
+
+
+    <!--PDP Rating Star-->
+    <dimen name="pdp_rating_star_size">16sp</dimen>
+</resources>

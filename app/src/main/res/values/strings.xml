@@ -1,0 +1,765 @@
+<resources>
+    <string name="app_name">goTution</string>
+
+
+    <!-- GraphQL queries -->
+    <string name="list_graphql_query">{ merchant {id name deliveryType minOrder deliveryCharge deliveryText facet deliveryValue deliveryTitle } types { title initialTypeCount showBucketImage tag types { typeId viewAllDeeplink name lastOrderedTs subtitle tag products { name mappingId typeId hasDetails unit offer sbcOffer sbcEnabled mrp price sbcPrice inventory imageUrl productId badge { label color } } } } }</string>
+    <string name="recommended_types_graphql_query">{ productTypes (merchantIds: [%1$s],cityId: %2$s, productId: %3$s, cartProductIds: [%4$s]){productId,typeId,type,imageUrl,typeMaxDiscount,name}}</string>
+    <string name="recommended_types_detail_graphql_query">{ productTypesDetail (merchantIds: [%1$s], cityId: %2$s, productId: %3$s, cartProductIds: [%4$s], cartProductTypes: [%5$s], typeInclusion: [%6$s], productListSize: %7$s){ typeId, name, viewAllDeeplink, products { productId, imageUrl, name, mappingId, discAmt, offer, inventory, mrp, price, unit, type, typeId, sbcPrice, sbcOffer, sbcEnabled } } merchant (ids: [%8$s]) {id name deliveryType minOrder deliveryCharge deliveryText facet deliveryValue deliveryTitle }}</string>
+
+
+    <!-- Titles and app_name -->
+    <string name="summary">Express local deliveries</string>
+    <string name="host_alt">www.grofers.com</string>
+    <string name="host">grofers.com</string>
+    <string name="title_aboutUs">About Us</string>
+    <string name="about_us_url">https://grofers.com/aboutus</string>
+    <string name="title_activity_search">Grofers</string>
+    <string name="scheme_http">http</string>
+    <string name="scheme_https">https</string>
+    <string name="package_name_google_chrome">com.android.chrome</string>
+    <string name="package_name_truecaller">com.truecaller</string>
+    <string name="freshchat_file_provider_authority">com.grofers.customerapp.provider</string>
+
+    <!-- Freshchat custom strings -->
+    <string name="freshchat_typically_replies_within_a_minute">Typically replies in a minute</string>
+    <string name="freshchat_typically_replies_within_x_minutes">Typically replies in {{minutes}} minutes</string>
+    <string name="freshchat_typically_replies_within_an_hour">Typically replies in an hour</string>
+    <string name="freshchat_typically_replies_within_2_hours">Typically replies in 2 hours</string>
+    <string name="freshchat_typically_replies_within_few_hours">Typically replies in few hours</string>
+
+    <!-- Loading Screen Text -->
+    <string name="loading_text_cart_updating">Checking out your Cart</string>
+    <string name="loading_text_order">Loading My Orders</string>
+    <string name="loading_text_order_details">Loading Order Details</string>
+    <string name="loading_text_address">Loading Your Addresses</string>
+
+    <string name="address_not_available">Current Location</string>
+
+    <string name="loading_text_default">Getting Your Delivery</string>
+    <string name="loading_net_banking_options">Loading Net Banking Options</string>
+    <string name="loading_faq_data">Loading Frequently Asked Questions</string>
+
+    <!-- Facebook API -->
+    <string name="facebook_app_id">755529297854717</string>
+    <string name="facebook_app_id_test">969893819751596</string>
+
+    <!-- Apptimize SDK -->
+    <string name="apptimize_key_prod">Axp9yGCkSYA9dTjaPDTPTTnaF4gDdxw</string>
+    <string name="apptimize_key_debug">AgdmtqSgnVEsuiBepdnkDwDcweRzcjE</string>
+
+    <!-- Apsalar-->
+    <string name="apsalar_key">grofers</string>
+    <string name="apsalar_secret">BRxKlWru</string>
+    <string name="apsalar_debug_key">satyamkrishna</string>
+    <string name="apsalar_debug_secret">GDT97I1n</string>
+
+    <!-- menu/main.xml -->
+    <string name="label_change_locality">Change Location</string>
+
+    <!-- activity_pick_locality.xml -->
+    <string name="search_hint">Search for Locality</string>
+    <string name="search_in">Suggestions in %s</string>
+    <string name="search_for_locality">Try searching for specific localities or popular landmarks within a city</string>
+    <string name="default_locality">this locality</string>
+
+    <!-- merchant_list_layout.xml -->
+    <string name="random_error">There was some error. Please try again</string>
+    <string name="no_internet">Your internet connection seems to be down</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- fragment_store_info.xml -->
+    <string name="expected_delivery_time">Expected delivery time</string>
+
+    <!-- Splash screen -->
+    <string name="title_activity_cart">My Cart</string>
+
+    <!-- OnBoarding screen -->
+    <string name="on_boarding_heading_1">Shop from stores around you</string>
+    <string name="on_boarding_heading_2">Hassle free shopping</string>
+    <string name="on_boarding_heading_3">On-demand delivery</string>
+    <string name="on_boarding_heading_4">Order Summary</string>
+    <string name="on_boarding_sub_heading_1">Shop for Groceries, Fruits &amp; Vegetables, Bakery, Meats, Cosmetics and much more</string>
+    <string name="on_boarding_sub_heading_2">Guaranteed store price and quality. 100% replacement policy</string>
+    <string name="on_boarding_sub_heading_3">Whenever and wherever you want, get it delivered to your doorstep</string>
+    <string name="on_boarding_sub_heading_4">Keep a track of when, where and how your order will reach you</string>
+
+    <!-- Choose Location Screen-->
+    <string name="location_screen_title_1">Where do you want your delivery?</string>
+    <string name="location_screen_textview_1">Search for nearby landmark, locality</string>
+    <string name="location_screen_textview_2">Set location manually</string>
+
+    <!-- Cart -->
+    <string name="free">Free</string>
+    <string name="free_cap">FREE</string>
+    <string name="cart">My Cart</string>
+
+    <string name="checkout">Checkout</string>
+    <string name="login_to_checkout">Login to Checkout</string>
+    <string name="title_activity_checkout">Checkout</string>
+    <string name="shop_more_txt">Shop more</string>
+    <string name="yay_free_delivery">Yay! Free Delivery</string>
+    <string name="yay_you_got_free_delivery">Yay! Free Delivery</string>
+    <string name="you_are_no_longer_shopping_at_club_prices">You are no longer shopping at Club Prices</string>
+    <string name="club_savings">Club Savings</string>
+    <string name="more_than_non_club">(%s more than non-club)</string>
+    <string name="join_sbc_to_save">Join Smart Bachat Club Membership to save much more!</string>
+    <string name="to_save">To save</string>
+    <string name="try_smart_bachat_club">try Smart Bachat Club</string>
+
+    <!-- Address -->
+    <string name="locality">Around you</string>
+    <string name="back_button">Go Back</string>
+    <string name="thank_you">Thank you</string>
+    <string name="str_landmark_city">%1$s, %2$s</string>
+    <string name="address_add_new">Please add a new address</string>
+    <string name="for_timely_deliveries">&#160;(for timely deliveries)</string>
+
+    <!-- Thank You Screen -->
+    <string name="scheduled">Scheduled Delivery Date &amp; Time</string>
+    <string name="from_sbc">from Smart Bachat Club</string>
+    <string name="check_order_status">Check Order Status</string>
+    <string name="if_items_run_out_of_stock">If items run out of stock</string>
+
+    <!-- Order History Cell -->
+    <string name="total_amount">Total Amount</string>
+
+    <!--Order History Details-->
+    <string name="total_item">1 Item</string>
+    <string name="total_items">%1$s Items</string>
+    <string name="payable_amount">AMOUNT: %1$s</string>
+
+    <!-- Previously Bought -->
+    <string name="item_added">1 item added</string>
+    <string name="items_added">%1$s items added</string>
+    <string name="no_similar_items_available">No similar items available</string>
+
+    <!-- New Address -->
+    <string name="address_label_others">Others</string>
+    <string name="add_a_new_address">Add a new address&#160;</string>
+
+    <!-- navigational drawer -->
+    <string name="str_login">Login</string>
+    <string name="str_logout">Logout</string>
+    <string name="str_share">Share</string>
+    <string name="str_aboutUs">About Us</string>
+    <string name="str_reportBug">Report a Bug</string>
+    <string name="str_my_addresses">My Addresses</string>
+    <string name="str_choose_addresses">Choose Address</string>
+    <string name="str_order_history">My Orders</string>
+    <string name="str_refund_history">Grofers Cash</string>
+    <string name="my_information">My Information</string>
+    <string name="str_rate_app">Rate Us</string>
+    <string name="str_call_us">Call Us</string>
+    <string name="str_chat_with_us">Chat with Us</string>
+    <string name="str_help">Help &amp; Support</string>
+    <string name="str_contact_us">Need Help?</string>
+    <string name="str_welcome">Welcome</string>
+    <string name="about_release">About This Release</string>
+
+    <!-- Action Bar Actions -->
+    <string name="action_bar_next">Next</string>
+
+    <!-- Checkout Activity-->
+    <string name="sub_total">Sub total</string>
+    <string name="delivery_charges">Delivery charges</string>
+    <string name="grofers_cash">Grofers Cash</string>
+    <string name="discount">Discount</string>
+    <string name="cashback">Cashback</string>
+    <string name="bank_offer_label">Offer:</string>
+    <string name="enter_discount_code">Enter promo code here</string>
+    <string name="default_promo_string">Promo codes &amp; Banks offers</string>
+    <string name="remove">Remove</string>
+    <string name="remove_this_promo_code">Remove this promo code</string>
+    <string name="promo_code_applied">Promo code applied -</string>
+    <string name="please_remove_existing_promo">Please remove existing promo code to use another offer</string>
+    <string name="invalid_code">Invalid code</string>
+    <string name="successfully_applied">Successfully Applied</string>
+    <string name="delivery_date_time">Delivery Date &amp; Time</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="button_grofer">Proceed to Payment</string>
+
+    <string name="merchant_list_activity">Grofers</string>
+    <string name="verify_mobile">Phone Number</string>
+    <string name="one_tap_otp_sent" formatted="false">%s has sent an SMS with an activation code to:+91%s</string>
+    <string name="title_activity_order_history">My Orders</string>
+    <string name="title_activity_refund_history">Grofers Cash</string>
+    <string name="title_payment_options">Payment Options</string>
+    <string name="title_activity_order_history_detail">Order Details</string>
+    <string name="title_net_banking">Net Banking</string>
+    <string name="cod_zero_payable_amount_message">Yay! You don’t have to pay the Delivery Executive</string>
+    <string name="cod_payable_amount_message">You have to pay %1$s to the Delivery Executive</string>
+
+    <string name="use_my_location">Use my location</string>
+    <string name="store_delivery_charge_txt">For %1$s, you will be charged %2$s as delivery charges</string>
+    <string name="store_deficit_amount_txt">%1$s away from free delivery from this store</string>
+    <string name="store_deficit_amount_txt_store_min">%1$s away from free delivery</string>
+    <string name="store_deficit_amount_txt_store_min_part_2">away from free delivery</string>
+    <string name="store_deficit_text">Shop %1$s more to get free delivery</string>
+    <string name="rupee_text">\u20b9%1$s</string>
+    <string name="rupee_text_negative">- %1$s</string>
+    <string name="rupee_text_positive">+ %1$s</string>
+    <string name="rupee_symbol">\u20b9</string>
+    <string name="str_logged_out">You are successfully logged out</string>
+    <string name="verifying_mobile">Verifying Phone</string>
+    <string name="str_next">Next</string>
+    <string name="str_add">Add</string>
+    <string name="str_pay">Pay</string>
+    <string name="str_enter_code_manually">Please enter activation code manually</string>
+    <string name="title_activity_add_address">Add Address</string>
+    <string name="title_activity_new_credit_debit_card">New Debit/Credit Card</string>
+    <string name="title_activity_edit_address">Edit Address</string>
+
+    <string name="str_phone_number">Phone number</string>
+
+    <!-- No Resource fragment -->
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="title_no_resource_cart">No items in your cart</string>
+    <string name="text_no_resource_cart">Your favourite items are just a click away</string>
+    <string name="button_text_no_resource_cart">Start Shopping</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="upload_failed">Upload failed</string>
+    <string name="check_your_connection">Ugh! Something’s not right with your internet</string>
+    <string name="tap_to_retry">Try Again</string>
+    <string name="no_internet_connection_toast">No internet connection found. Check your connection or try again.</string>
+
+    <string name="no_order">You have no past orders</string>
+    <string name="no_refunds">No activity yet!</string>
+    <string name="no_order_small">Let\’s get you started</string>
+    <string name="no_refund_small">Don\'t worry, we will notifiy you as soon as there is some activity</string>
+    <string name="default_refund_text">Your request will be processed shortly</string>
+    <string name="no_order_button">Start Shopping</string>
+    <string name="no_address">You have no saved addresses</string>
+    <string name="no_address_small">Tell us where you want your orders delivered</string>
+    <string name="no_address_button">Add new address in %s</string>
+
+    <string name="delete_card">Delete Card</string>
+    <string name="delete_card_confirmation_text">Are you sure you want to delete this card?</string>
+    <string name="payment_options_not_available">Payment options are not available</string>
+
+    <!-- New Card -->
+    <string name="newcard_card_no">Card Number</string>
+    <string name="newcard_expiry_date">mm/yy (Valid Thru)</string>
+    <string name="newcard_cvv">CVV</string>
+    <string name="newcard_nickname">Nickname (Optional)</string>
+
+    <!-- Deep Linking -->
+    <string name="filter_grofers">grofers</string>
+
+    <!-- stores not found strings -->
+    <string name="str_no_inventory">"Sorry, you can\'t add more of these items"</string>
+    <string name="loading_merchants">Fetching Stores</string>
+    <string name="str_loading">loading&#8230;</string>
+    <string name="str_free_delivery">Free Delivery</string>
+    <string name="shop_text">Shop for</string>
+    <string name="product_image">Product Image</string>
+    <string name="items_unavailable" formatted="false">%d items unavailable</string>
+    <string name="item_unavailable">1 item unavailable</string>
+    <string name="items_unavailable_message" formatted="false">Sorry some items are out of stock, click on %s to view alternate items</string>
+    <string name="sorry_few_items_unavailable">Sorry, few items in your cart are not available</string>
+    <string name="sorry_one_item_unavailable">Sorry, one item in your cart is not available</string>
+    <string name="find_similar_items">Find similar items</string>
+    <string name="str_promo_image">Promo image</string>
+    <string name="str_title_server_error">Whoops! Something didn’t work</string>
+    <string name="str_title_no_internet_connection">No internet connection</string>
+    <string name="str_body_server_error">The server encountered a temporary error</string>
+    <string name="str_no_phone_title">Verify your number</string>
+    <string name="str_no_phone_text">It seems that your mobile number is not verified, click verify number to verify your mobile number</string>
+    <string name="str_verify_mobile">Verify Number</string>
+
+    <!-- Dialog Strings-->
+    <string name="str_dialog_positive_button">Yes</string>
+    <string name="str_dialog_negative_button">No</string>
+
+    <!-- Call Us Dialog Box -->
+    <string name="call_title">Contact Grofers</string>
+    <string name="call_desc">Do you want to call the Grofers helpline?</string>
+
+    <!-- Shopping Experience Dialog -->
+    <string name="shop_exp_dialog_title">Rate Us</string>
+    <string name="shop_exp_dialog_desc">How did you like shopping with Grofers?</string>
+    <string name="shop_exp_dialog_neutral">Meh!</string>
+    <string name="shop_exp_dialog_positive">Loved it!</string>
+
+    <!-- Rate Use Dialog-->
+    <string name="rate_dialog_title">Rate App</string>
+    <string name="rate_us_dialog_desc">Mind giving us a 5 star rating on Google Play?</string>
+    <string name="rate_us_dialog_negative">Nope</string>
+    <string name="rate_us_dialog_positive">Yeah, Sure!</string>
+
+    <!-- Delivery Experience Dialog-->
+    <string name="del_exp_title">Delivery Experience</string>
+    <string name="del_exp_desc">So how did you like this delivery ?</string>
+    <string name="del_exp_negative">Boo!</string>
+    <string name="del_exp_positive">Yay!</string>
+
+    <!-- Delivery Experience Positive Dialog-->
+    <string name="del_exp_positive_title">Delivery Experience</string>
+    <string name="del_exp_positive_desc">Always happy to hear it. Bet the next delivery is going to be even better!</string>
+
+    <!-- Delivery Experience Negative Dialog-->
+    <string name="del_exp_negative_title">Delivery Experience</string>
+    <string name="del_exp_negative_desc">Sorry to hear that. Please help us serve you better. So where can we improve?</string>
+
+    <!-- Feedback Dialog-->
+    <string name="feedback_dialog_title">Help us do better</string>
+    <string name="feedback_dialog_desc">Mind giving us a quick feedback?</string>
+    <string name="feedback_dialog_negative">Nope</string>
+    <string name="feedback_dialog_positive">Yeah, Sure!</string>
+
+    <string name="around_you">Select Delivery Locality</string>
+
+    <!-- Logout Dialog Box -->
+    <string name="logout_dialog_title">Logout</string>
+    <string name="logout_dialog_message">Are you sure you want to logout?</string>
+
+    <!-- discard cart dialog box -->
+    <string name="discard_cart_dialog_title">Change delivery location</string>
+    <string name="discard_cart_dialog_message">On changing delivery location, you will lose the items in your cart.</string>
+    <string name="str_discard_cart_positive_button">Change</string>
+    <string name="str_discard_cart_negative_button">Cancel</string>
+
+    <!-- discard cart dialog box -->
+    <string name="cancel_order">Cancel Order</string>
+
+    <!-- Cash on Delivery dialog box -->
+    <string name="cod_title">Pay on Delivery</string>
+    <string name="cod_message">Would you like to pay for this order at the time of delivery?</string>
+
+    <!-- Simpl dialog box -->
+    <string name="simpl_title">Pay using Simpl</string>
+    <string name="simpl_message">Would you like to pay for this order using Simpl?</string>
+
+    <!-- Cash on Delivery dialog box -->
+    <string name="dialog_payment_failure_title">Payment could not be processed</string>
+    <string name="dialog_payment_failure_message">Please double check the information that you have provided us before retrying or use a different payment method.</string>
+
+    <!-- Time out dialog box -->
+    <string name="dialog_timeout_title">Time\'s Up</string>
+    <string name="dialog_timeout_text">Looks like you have taken too long to make a payment. Please try again after changing the delivery time.</string>
+    <string name="str_try_again">Try Again</string>
+
+    <string name="title_activity_activity_base">Grofers</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_no_stores_found">No Merchants Found</string>
+
+    <string name="notification_center">Offer Zone</string>
+    <string name="title_activity_notification">Offer Zone</string>
+    <string name="str_code">Code:</string>
+
+    <string name="no_notifications_title">We have no new offers currently</string>
+    <string name="no_notification_message">Look out for all the exciting updates and offers here</string>
+    <string name="str_details">Details</string>
+
+    <string name="referral_image">Referral Image</string>
+    <string name="login_or_signup">Login or Signup</string>
+
+    <string name="logging_out">Logging out&#8230;</string>
+    <string name="str_unable_to_logout">Something went wrong, unable to logout</string>
+
+    <!-- Referral in app dialog -->
+    <string name="str_wallet_dialog_button">Okay</string>
+    <string name="hint_enter_code">Enter OTP</string>
+    <string name="str_free">FREE</string>
+
+    <!-- About Us -->
+    <string name="str_aboutUs_title">About Us</string>
+    <string name="str_aboutUs_version">v1.6.0</string>
+    <string name="str_aboutUs_para1">Grofers is an on-demand delivery service that connects you to the stores in your neighbourhood. Our aim is to make the local shopping experience easy and pleasant.\n\nYou can shop from a wide assortment of groceries, fruits &amp; vegetables, bakery items, flowers, meats, baby &amp; pet care products, cosmetics and electronics accessories. Order with a few taps and get everything delivered to your doorstep, instantly.\n\nIt is hereby clarified that Grofers India Private Limited does not have any relation with the mark \'GROFFR\', which (we are given to understand) is used by Redstone Consultancy Services Pvt Ltd for its real estate services business, which is not related to Grofers India Private Limited in any manner.\n\nThe friendly application provides easy modes of payment - Debit/Credit card, Cash-on-Delivery (COD) or an e-wallet. It also allows you to schedule the time of delivery.\n\nSo if you want to get groceries, fresh fruits &amp; vegetables delivered at home, or want to order a cake, or want to send flowers to a friend - Just #GroferIt.\n\n</string>
+    <string name="str_privacy_policty">Privacy Policy</string>
+    <string name="str_terms_conditions">Terms &amp; Conditions</string>
+
+    <!-- Toast Payment Errors -->
+    <string name="toast_card_invalid_cardno">Please enter a valid card number</string>
+    <string name="toast_card_invalid_date">Please enter a correct Valid Thru date</string>
+
+    <!--CVV image contentDesc -->
+    <string name="cvv_outer_contentDesc">Outer circle</string>
+
+    <string name="about_us_v">v</string>
+
+    <!-- Payments Strings -->
+    <string name="inclusive_taxes">(Incl. of all taxes)</string>
+    <string name="amount_payable">Amount Payable</string>
+    <string name="cvv_dialog_digits" formatted="false">Enter your %d digit CVV number</string>
+    <string name="pay_and_place">Pay and Place Order</string>
+    <string name="pay_using_this_card">Pay using this card</string>
+    <string name="add_money">Add Money</string>
+    <string name="min_recharge_reqd" formatted="false">Minimum recharge required is %s</string>
+    <string name="apply">Apply</string>
+    <string name="payment_processing_toast_message">Processing your payment ..</string>
+    <string name="saved_card_header">Your Card(s)</string>
+    <string name="visa_card_header">Visa Checkout</string>
+    <string name="wallet_title">%s Wallet</string>
+    <string name="wallet_insufficient_balance">Uh oh! Insufficient balance in your %s</string>
+    <string name="wallet_recharge_warning">Recharge amount can not be greater than %d</string>
+    <string name="error_payment_processing_toast_message">Error processing your payment</string>
+
+    <!-- Save Card -->
+    <string name="save_card_for_future">Save this card for future use</string>
+    <string name="save_card_secure">It\'s perfectly secure!</string>
+    <string name="no_results_found">No results found</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="deeplink_404_default_title">Product not Found</string>
+    <string name="deeplink_404_default_subtitle">We are sorry, but the product you are looking for is not available in your locality</string>
+    <string name="whoops_something_went_wrong">Whoops! Something didn’t work</string>
+
+    <!-- Delivery Exp -->
+    <string name="str_submit">Submit</string>
+    <string name="str_raise_complaint">Submit</string>
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+    <string name="str_order_id" formatted="false">Order ID: %s</string>
+    <string name="str_delivery_address">Delivery Address</string>
+    <string name="hint_comments">Other comments&#8230;</string>
+
+    <!-- Address popup -->
+    <string name="str_edit">Edit</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_cancelling_order">Cancelling Order&#8230;</string>
+
+    <!-- Phone verification -->
+    <string name="str_phone_verification_text">Enter Mobile number</string>
+    <string name="str_verification_code">Verification Code</string>
+
+    <string name="lets_get_started">Let\'s get started</string>
+    <string name="minimum_images_required">Minimum of %d images are needed.</string>
+    <string name="minimum_image_required">Please upload image proof.</string>
+    <string name="please_upload_images">Please upload images of the items</string>
+    <string name="max_image_limit_warning">"Max limit of 9 images"</string>
+    <string name="images_not_uploaded">Images not uploaded</string>
+
+    <!--Pick Locality-->
+    <string name="active_cities_list_title">We currently deliver in selected localities in </string>
+    <string name="active_cities">Delhi-NCR, Mumbai, Chennai, Bangalore, Hyderabad,\nKolkata, Pune, Jaipur, Lucknow, Ahmedabad</string>
+
+    <string name="str_locality_change_title">Locality can\'t be changed</string>
+    <string name="str_locality_change_text" formatted="false">Your delivery address has to be inside %s as you have shopped from the same locality.</string>
+    <string name="str_locality_change_button">OK</string>
+    <string name="checking_saved_card">Checking saved cards...</string>
+    <string name="offer_name">Debit/Credit Card</string>
+    <string name="offer_applied">Offer applied on this card</string>
+    <string name="offer_value">Debit/Credit Card</string>
+    <string name="check_offer_validity_text">Please enter your card number to avail the offer</string>
+    <string name="offer_invalid">Sorry! This card is not eligible for this offer.</string>
+    <string name="offer_valid">Offer applied on this card</string>
+    <string name="original_amount_text">Original Amount</string>
+    <string name="fetching_options">Fetching options...</string>
+    <string name="original">adusskd</string>
+    <string name="payable_amount_text">Discount</string>
+    <string name="valid_offer_response">Valid Offer</string>
+    <string name="str_admin">Admin</string>
+    <string name="special_discount">Special Discount (</string>
+    <string name="promocode_text">"Discount (Promo code : "</string>
+    <string name="net_payable">Net Payable</string>
+    <string name="not_in_locality">Sorry, we don\'t deliver in %s</string>
+
+    <string name="select_bank">Select a bank to proceed</string>
+    <string name="offers_text">%1$d offers from Banks</string>
+    <string name="need_help_call_us">Still need help? Call us.</string>
+    <string name="need_help_write_to_us">Still need help? Write to us.</string>
+    <string name="general_query">I have a general query</string>
+    <string name="faq">FAQ\'s</string>
+    <string name="email_text">Email Address</string>
+    <string name="button_copy_items">Select item(s) from your order</string>
+
+    <string name="placing_order_loader_txt">Placing your order</string>
+    <string name="offer_title">Offers</string>
+    <string name="wallet_amount_info">"Your current balance is %1$s"</string>
+    <string name="wallet_error_msg">Payments below Rs.%1$d are not possible</string>
+    <string name="grofers_wallet_txt">Covers your full payment for this order. Go ahead and place this order.</string>
+    <string name="grofers_wallet_title">Grofers Cash</string>
+    <string name="verification_error">Verification canceled</string>
+
+    <string name="upload_picture">Upload photos of the products</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="title_activity_activity_help_topics">ActivityHelpTopics</string>
+    <string name="title_activity_activity_in_app_support">ActivityInAppSupport</string>
+
+    <string name="inapp_chat_price_message_skeleton">%1$s (%2$s X %3$s) = %4$s \n Actual Price: %5$s per unit</string>
+
+    <string name="inapp_chat_message_skeleton">%1$s (%2$s X %3$s) = %4$s</string>
+
+
+    <string name="str_submit_feedback">Submitting feedback&#8230;</string>
+
+    <!-- Delete State Dialog Box -->
+    <string name="state_delete_dialog_title">Leave this page?</string>
+    <string name="state_delete_dialog_desc">Moving away from this page will erase the information that you have entered. Do you still want to leave this page?</string>
+    <string name="grofer_cash_msg">"Would you like to pay in full for your order with Grofers Cash? "</string>
+    <string name="grofers_cash_title">Use Grofers Cash</string>
+
+    <!-- Delete State Dialog Box -->
+    <string name="clear_image_dialog_title">Delete Photo</string>
+    <string name="clear_image_dialog_desc">Are you sure you want to delete photo?</string>
+    <string name="card_disable_txt">Sorry, use of cards is disabled for now.</string>
+    <string name="free_delivery_txt">"Free delivery from this store "</string>
+    <string name="past_order_txt">View Past Orders</string>
+    <string name="tab_disable_txt">Sorry, this payment option is disabled for now.</string>
+
+    <!-- Address and Date & Time (Slots) -->
+    <string name="title_activity_checkout_address_slot">Address and Date &amp; Time</string>
+    <string name="more_items_txt">View %1$d items</string>
+    <string name="more_item_txt">View %1$d item</string>
+
+    <string name="num_items_txt">%1$d items</string>
+    <string name="num_item_txt">%1$d item</string>
+    <string name="bullet">\u2022</string>
+    <string name="yay_order_delivered">Yay! Order Successfully Delivered</string>
+    <string name="reschedule_loader">Loading time slots…</string>
+    <string name="shop_more_btn">Shop more from store</string>
+
+    <string name="more_categories">More Categories</string>
+    <string name="less_categories">Less Categories</string>
+    <string name="searching_location">Getting your current location..</string>
+    <string name="wait_pick_locality">Please wait a few seconds and try again</string>
+    <string name="uncheckoutable_title">Sorry, this cart can\'t be checked out.</string>
+    <string name="okay">Okay</string>
+    <string name="proceed">Proceed</string>
+    <string name="action_bar_title">Title</string>
+    <string name="action_bar_subtitle">Subtitle</string>
+    <string name="reorder_out_of_stock">Out of Stock</string>
+    <string name="reorder_out_of_stock_desc">Looks like this store is out of stock of your previously ordered items</string>
+    <string name="quick_checkout_title">Reorder</string>
+    <string name="quick_checkout_sub">Shops delivering at your location</string>
+
+    <string name="reorder_no_orders">Oops!</string>
+    <string name="reorder_no_orders_details">Looks like you have no recently ordered items</string>
+    <string name="speak_now">Speak Now</string>
+    <string name="select_localities_in">We deliver in select locations in %s</string>
+    <string name="loc_permission_txt">We deliver in 13+ cities.</string>
+    <string name="change_loc_part2">Do you wish to switch to your current location?</string>
+    <string name="change_loc_part1">"You seem to be in a different location than "</string>
+    <string name="detect_my_location">Detect my location</string>
+    <string name="order_successfully_placed">Yay! Order Successfully Placed</string>
+    <string name="submit">Submit</string>
+    <string name="raise_a_complaint">Raise a complaint</string>
+    <string name="done">Done</string>
+    <string name="view_my_list">View My List</string>
+
+    <string name="title_mr">Mr.</string>
+    <string name="title_mrs">Mrs.</string>
+    <string name="title_miss">Miss</string>
+
+    <!-- Refund history -->
+    <string name="transaction_id" formatted="false">Transaction ID: %s</string>
+    <string name="loc_detect_note">Note: you will lose the items in your cart, if you change your delivery location.</string>
+    <string name="new_line">\n</string>
+    <string name="loc_tooltip">Try searching for popular landmarks near your address, like hospitals, schools, buildings etc</string>
+
+    <!-- Product Message -->
+    <string name="product_message_character_limit" formatted="false">%d characters limit</string>
+    <string name="character_limit_reached">Character limit reached</string>
+    <string name="characters_remaining" formatted="false">%d characters remaining</string>
+    <string name="one_character_remaining">1 character remaining</string>
+    <string name="add_message">Add a message?</string>
+    <string name="enter_your_message_here">Enter your message here…</string>
+
+    <string name="product_not_added">Product not added</string>
+    <string name="view_items">View Items</string>
+    <string name="view_all">View All</string>
+    <string name="view_less">View Less</string>
+    <string name="view_details">View Details</string>
+    <string name="use_different_photo">Use Different Photo</string>
+    <string name="use_photo">Use Photo</string>
+    <string name="re_take">Re Take</string>
+    <string name="flash">Flash</string>
+    <string name="gallery">Gallery</string>
+    <string name="loading">Loading…</string>
+    <string name="pic_tap_to_retry">Tap to Retry</string>
+    <string name="store_free_delivery">Add items from this store</string>
+    <string name="shop_more">Shop more from this store</string>
+    <string name="item_selected">%1$d item selected"</string>
+    <string name="items_selected">%1$d items selected"</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="good_feedback_subtext">We\'re happy to serve you always</string>
+    <string name="awesome">Awesome!</string>
+
+
+    <string name="rate_us_on_play_store">Rate us on PlayStore</string>
+    <string name="promo_not_applicable">Sorry! The promo has become invalid.</string>
+    <string name="tell_us_if_something_else_went_wrong">Tell us if something else went wrong</string>
+    <string name="feedback_submitted">Feedback Submitted</string>
+    <string name="need_additional_help">Need additional help?</string>
+    <string name="back_to_my_orders">Ok, Got it</string>
+    <string name="tell_us_more">Tell us more</string>
+    <string name="search_placeholder">Search for products</string>
+
+    <string name="search_in_all">Search in all stores</string>
+    <string name="search_store_not_found">Sorry, No Results found in this Store</string>
+    <string name="look_in_other_stores">Look in all stores</string>
+    <string name="title_no_results_found">Sorry, No results found</string>
+    <string name="message_no_results_found">Search using a more specific keyword</string>
+    <string name="search_within">Search within %s</string>
+
+    <string name="help_description">Please let us know what issues you\'re facing and we\'ll get back to you soon.</string>
+
+    <string name="report_bug_message">Please mention the bug(s) you\'ve found and we\'ll fix them right away.</string>
+    <string name="report_bug_placeholder">Mention bug(s) here</string>
+    <string name="report_bug_button">Report</string>
+    <string name="report_bug_toast">Please mention the bug in detail in the box above</string>
+    <string name="report_issue_with_order">I have an issue with this order</string>
+    <string name="report_issue_header">Report an issue with this order</string>
+
+    <string name="in_app_toast">Please tell us more in the box above to submit</string>
+    <string name="write_to_us_toast">"Please fill all the required fields"</string>
+    <string name="write_to_us">"Write to Us"</string>
+    <string name="premium_submit">Deliver in this Time Slot</string>
+    <string name="current_slot">Current Slot</string>
+    <string name="current_slot_caps">CURRENT SLOT</string>
+    <string name="or">OR</string>
+    <string name="upgrade_txt">Upgrade to an earlier slot for free?</string>
+    <string name="re_order">Re-Order</string>
+
+    <string name="camera_permission_messsage">You have denied the camera permission. Please enable it from \'Settings\' to use the Camera.</string>
+    <string name="storage_permission_message">You have denied the storage permission. Please enable it from \'Settings\' to use the Camera.</string>
+    <string name="both_permission_message">Please enable the following permissions from settings to use the camera.\n>1. Storage\n2. Camera</string>
+    <string name="storage_permission_title"> Storage Permission Denied </string>
+    <string name="location_permission_title">Location Permission Denied</string>
+    <string name="camera_permission_title">Camera Permission Denied</string>
+    <string name="camera_and_storage_permission_title">Enable storage and camera permission</string>
+
+    <string name="permission_denied_message"> Grofers need this permission to cache images on your device for smoother experience </string>
+    <string name="post_never_ask_message">You have denied Storage permissions. But Grofers need this permission to improve shopping experience.
+        Please enable it from \'Settings\'</string>
+
+    <string name="permission_retry"> Retry </string>
+    <string name="permission_sure"> I\'m sure </string>
+
+    <string name="location_perm_post_never_ask_msg">You have denied the location permission. Please enable it from the \'Settings\' section of your phone.</string>
+
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="storage_permission_toast">Choose \'Permissions\' and enable the \'Storage\' permission</string>
+    <string name="location_permission_toast">Choose \'Permissions\' and enable the \'Location\' permission</string>
+    <string name="camera_permission_toast">Choose \'Permissions\' and enable the \'Camera\' permission</string>
+    <string name="camera_and_storage_permission_toast">Choose \'Permissions\' and enable the \'Camera\' and \'Storage\' permission</string>
+    <string name="location_denied_toast">You can always enable the Location Permission from \'Settings\' of your phone</string>
+
+    <string name="number_verification_wait_message">Please wait while we are verifying your number.</string>
+
+    <!-- Truecaller -->
+    <string name="truecaller_verification_wait_message">Verifying your authentication code</string>
+    <string name="truecaller_not_updated">Truecaller app not updated. Please login using your phone number</string>
+
+    <string name="item_missing">Item Unavailable</string>
+    <string name="item_returned">Item Return/Quality Issue</string>
+
+    <string name="abstract_title">/abstract_title</string>
+    <string name="abstract_keyword">/abstract_key</string>
+
+    <string name="saving_your_choice">Saving your choice ...</string>
+    <string name="sorry_could_not_save">Sorry could not save ...</string>
+    <string name="logged_in_text">You have been logged in</string>
+    <string name="select_issue_with_order">Select Order with Issue</string>
+
+    <string name="item_missing_text">%1$s out of %2$s Item</string>
+    <string name="items_missing_text">%1$s out of %2$s Items</string>
+    <string name="unavailable">Unavailable</string>
+
+    <string name="new_address_error_title">Please select a title</string>
+    <string name="new_address_error_name">Name is invalid</string>
+    <string name="new_address_error_address">Address is invalid</string>
+    <string name="new_address_error_locality">Locality is invalid</string>
+    <string name="new_address_error_label">Please limit to %s characters</string>
+    <string name="max_limit_reached">Character limit reached</string>
+
+    <string name="locate_on_map">Locate on Map</string>
+    <string name="map_footer_info">Place the pin on your delivery location</string>
+    <string name="save_address">Save Address</string>
+    <string name="out_of_servicable_area">This location is out of our servicable area.</string>
+    <string name="stores_dont_deliver_here">The selected store(s) do not deliver here.</string>
+    <string name="your_delivery_location_seems_far_away">Your delivery location seems far away.</string>
+    <string name="locate_address_on_map">Locate address on map?</string>
+    <string name="please_provide_accurate_location_for_timely_deliveries">Please provide the accurate location on the map for timely deliveries</string>
+    <string name="proceed_to_pay">Proceed to pay</string>
+    <string name="update_on_map">Update on map</string>
+    <string name="proceed_anyway">Proceed anyway</string>
+    <string name="update_location">Update location</string>
+    <string name="thanks_for_locating_address_on_map">Thanks for locating your address on the map</string>
+    <string name="fetching_address">Fetching address…</string>
+    <string name="unable_to_fetch_location">Unable to fetch your location</string>
+
+    <string name="rate_us_text">Please rate your shopping experience</string>
+    <string name="what_went_wrong">What went wrong?</string>
+    <string name="what_did_you_like">What did you like?</string>
+
+    <string name="invalid_cc_name">Please remove special characters</string>
+    <string name="empty_cart_toast">No Items in Cart</string>
+    <string name="items_are_out_of_stock">Items are out of stock</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"https://grofers.com\",\n  }\n}]</string>
+
+    <string name="continue_button_text">Continue</string>
+    <string name="are_you_sure_cancel_order">Are you sure you want to cancel the order?</string>
+    <string name="cancel_your_order">Cancel your order?</string>
+    <string name="cancel_the_order">Cancel the order</string>
+    <string name="close">Close</string>
+    <string name="reschedule_your_order">Reschedule your order?</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="reschedule_order">Reschedule Order</string>
+    <string name="choose_your_new_delivery_slot">Choose your new delivery slot</string>
+    <string name="please_select_a_new_time_slot">Please select a new time slot</string>
+    <string name="this_is_your_current_delivery_slot">This is your current delivery slot</string>
+    <string name="this_store_remains_closed">This store remains closed at the selected date and time.</string>
+
+    <string name="search_in_all_stores_widget_text">Couldn’t find the product you were looking for?</string>
+    <string name="search_tags_widget_text">You could also search for:</string>
+    <string name="location_not_found">Location not found</string>
+    <string name="please_search_nearby_landmark">Please try searching for a nearby landmark.</string>
+
+    <string name="plp_feedback_select_option_toast_text">Please select an option</string>
+    <string name="plp_feedback_submit_toast_text">Thanks for the feedback. We will look into it</string>
+    <string name="btn_categories">Categories</string>
+    <string name="activity_categories_title">All Categories</string>
+
+    <string name="my_list">My List</string>
+    <string name="select">Select</string>
+    <string name="update">Update</string>
+    <string name="club_price_text">Club Price: %1$s</string>
+    <string name="pdp_club_price_text">Price for Club Members: %1$s</string>
+
+    <string name="club_price">Club Price:\u0020</string>
+    <string name="non_club_price_text">Non-Club Price:\u0020</string>
+    <string name="mrp_club_price_text">MRP:\u0020</string>
+    <string name="exclusive_club_prices">Exclusive club member prices for you</string>
+
+    <string name="join_bachat_club_text">Join Smart Bachat Club and get club prices</string>
+    <string name="club_price_holder">Club Price:</string>
+    <string name="grofers_price_holder">Grofers Price:</string>
+    <string name="product_mrp">MRP:</string>
+    <string name="membership_confirmation_title"><![CDATA[Welcome to<br/><b>Smart Bachat Club</b>]]></string>
+    <string name="title_membership_added_to_cart">Done! Membership added to your cart</string>
+    <string name="subtitle_membership_added_to_cart">Now, enjoy the club prices</string>
+    <string name="okay_thanks">Ok, thanks!</string>
+    <string name="similar_items">Similar items</string>
+
+    <string name="manage_membership">Manage Membership</string>
+    <string name="member_greeting">Hi. You’re a</string>
+    <string name="membership_benefit_header">Your Benefit</string>
+    <string name="membership_expiry_header">Your membership will expire on</string>
+    <string name="membership_renew_text">You can extend your club membership by purchasing another plan.</string>
+    <string name="membership_cancel">Cancel membership</string>
+    <string name="membersip_cancellation_title">Sad to see you go :(</string>
+    <string name="membersip_cancellation_subtitle"><![CDATA[You will receive the refund as Grofers cash\ninstantly after terminating your membership.\n\nAre you sure you want to cancel your membership?]]></string>
+    <string name="end_membership">End membership</string>
+    <string name="finish_cancellation">Finish cancellation</string>
+    <string name="continue_membership">Continue membership</string>
+    <string name="member_account_tag">My membership account</string>
+    <string name="non_member_account_tag">Exclusive wholesale prices</string>
+    <string name="membership_extend">Extend membership</string>
+
+    <string name="member_since">Member since:\u0020 %1$s</string>
+    <string name="exit">Exit</string>
+
+    <string name="default_btn_copy_string">Copy Coupon Code</string>
+    <string name="string_copied_to_clipboard">%s copied to clipboard</string>
+    <string name="view_all_stock_out_item_text">View all unavailable items</string>
+
+    <string name="recommendations_discount">Upto %s</string>
+    <string name="recommended_for_you">Recommended for you</string>
+
+</resources>

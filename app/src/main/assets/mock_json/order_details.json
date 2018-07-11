@@ -1,0 +1,115 @@
+{
+  "merchant": {
+    "id": 27564,
+    "name": "B2B Store - Gurgaon"
+  },
+  "status": {
+    "status": "CANCELLED",
+    "message": "Order Cancelled",
+    "id": 7
+  },
+  "promo_code": "",
+  "scheduled_time": "Scheduled for <b>Fri, 07 Apr, 9 AM - 9 PM</b>",
+  "is_cancellable": false,
+  "settlements": [],
+  "checkout_time": "Placed Today, 04:58 AM",
+  "cancellable_text": "Order has already been cancelled",
+  "id": 10680818,
+  "payment": {
+    "text": "Paid on Delivery",
+    "mode_type": 0,
+    "mode": "COD",
+    "id": 11168580
+  },
+  "delivery_address": {
+    "city": "Gurugram",
+    "name": "wu",
+    "title": null,
+    "line2": "jwj",
+    "line1": "usu",
+    "pincode": null,
+    "state": null,
+    "label": "Home",
+    "landmark": "Sector 32",
+    "address_type": "Home",
+    "id": 6088555
+  },
+  "items": [
+    {
+      "image": "http://cdn.grofers.com/app/images/products/normal/pro_358120.jpg",
+      "mapping_id": 18688599,
+      "procurement_price": 218,
+      "id": 45576874,
+      "unit": "3(3x75 gm)",
+      "name": "B2B Dettol Original Soap",
+      "returned_units": 0,
+      "is_returned": false,
+      "procured_units": 1,
+      "price": 218,
+      "total_units": 1
+    }
+  ],
+  "is_reschedulable": false,
+  "cart_id": "8835349",
+  "savings": {
+    "text": "Yay! You have saved \\u20B919.0",
+    "amount": 19,
+    "percent": 8.72
+  },
+  "pricing_detail": {
+    "settlements": [
+      {
+        "show_payable": false,
+        "text": "Refund of ₹0 has been credited to Grofers Cash and ₹518 has been reduced from your Old payable amount because of",
+        "type": "refund",
+        "details": [
+          {
+            "amount": 518,
+            "title": "Other reasons"
+          }
+        ]
+      }
+    ],
+    "delivery_charge": 300,
+    "special_discount": 0,
+    "special_message": "",
+    "payable_text": "Final paid amount",
+    "wallet_amount": 0,
+    "sub_total": 218,
+    "payable_amount": 0,
+    "total_text": "Original payable amount",
+    "discount_amount": 0,
+    "total_amount": 518
+  },
+  "deliverer": {
+    "type": "grofers",
+    "title": "Delivered by Grofers"
+  },
+  "status-info": {
+    "action": {
+      "default_uri": "grofers://order-history"
+    },
+    "type": 10,
+    "objects": [
+      {
+        "type": 11,
+        "data": {
+          "order_status_title": "ORDER STATUS",
+          "delivery_time_heading": "Today,",
+          "order_status_type": 7,
+          "delivery_time_subheading": "6:03 AM",
+          "delivery_time_title": "Cancelled on",
+          "delivery_time_color": "#000000",
+          "delivery_time_size_type": 2
+        }
+      }
+    ],
+    "data": {
+      "title": "YOUR ORDER"
+    },
+    "layout_config": {
+      "bg_color": "#123123"
+    }
+  },
+  "hash_id": "GR529192272"
+}

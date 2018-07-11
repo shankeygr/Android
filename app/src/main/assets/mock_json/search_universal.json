@@ -1,0 +1,75 @@
+{
+  "objects": [
+    {
+      "action": {
+        "default_uri": null
+      },
+      "data": {
+        "title": "We have chosen the best store for you",
+        "subtitle": "You can always change your store",
+        "action_text": "Ok, Got it",
+        "type_id": 1,
+        "type": "tooltip",
+        "id": 2
+      },
+      "layout_config": {
+        "persistent": false,
+        "bg_color": "#4CAE1A",
+        "action_bg_color": "#47A519"
+      },
+      "type": 2
+    },
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=20644",
+        "change_store_uri": "grofers://search?search_phrase=apple&expr=abcde"
+      },
+      "data": {
+        "name": "Super Store, Gurgaon",
+        "id": 20644,
+        "free_delivery_value": "₹350, Cash Only",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "eta_color": "#727272",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "product_images": [
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184279.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184281.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329102.jpg?1474208654",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269420.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_202904.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329199.jpg?1473923564",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269413.jpg?1472473100",
+          "http://cdn.grofers.com/app/images/placeholders/placeholder.jpg"
+        ],
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        }
+      },
+      "layout_config": {
+        "type": 100
+      },
+      "type": 3
+    }
+  ],
+  "data": {
+    "merchant": {
+      "name": "Super Store",
+      "id": 20644,
+      "min_order": 350,
+      "delivery_charge": 29,
+      "free_delivery_text": "Free delivery above ₹350",
+      "eta_text": "Tomorrow, 11 AM",
+      "subcategories": [
+        {
+          "id": 22,
+          "pc_id": 2,
+          "name": "Fruits"
+        }
+      ]
+    }
+  }
+}

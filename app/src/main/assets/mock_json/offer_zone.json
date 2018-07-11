@@ -1,0 +1,118 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "title": "1 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500.",
+      "uri": "grofers://home?coupon_code=GROFERS20",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/13oct-payumoney-notify.jpg",
+      "tnc": "https://grofers.com/terms",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472059230",
+      "is_location_specific": true
+    },
+    {
+      "id": 3,
+      "title": "3 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (tnc + coupon + deeplink)",
+      "uri": "grofers://home?coupon_code=GROFERS20",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/30nov-SKYN-notify.jpg",
+      "tnc": "grofers://webpage-full?url=https://grofers.com/terms",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472069816"
+    },
+    {
+      "id": 2,
+      "title": "2 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (coupon + deeplink)",
+      "uri": "grofers://home?coupon_code=GROFERS20",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/13oct-payumoney-notify.jpg",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472064523"
+    },
+    {
+      "id": 4,
+      "title": "4 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (tnc + deeplink)",
+      "uri": "grofers://home",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/Freshbury_paytm_notification.jpg",
+      "tnc": "grofers://web-external?web_url=https://grofers.com/terms",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472075109",
+      "is_location_specific": true
+    },
+    {
+      "id": 5,
+      "title": "5 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (deeplink only)",
+      "uri": "grofers://home",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/30nov-SKYN-notify.jpg",
+      "unseen": false,
+      "sort_group": 0,
+      "offer_timestamp": "1472080402"
+    },
+    {
+      "id": 6,
+      "title": "6 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (tnc + coupon, no image)",
+      "expiry_timestamp": 1574567553,
+      "tnc": "https://grofers.com/terms",
+      "unseen": false,
+      "sort_group": 0,
+      "offer_timestamp": "1472085695",
+      "is_location_specific": false
+    },
+    {
+      "id": 7,
+      "title": "7 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (tnc only) (image should be cropped)",
+      "expiry_timestamp": 1574567553,
+      "image_url": "http://cdn.grofers.com/app/images/promotions/merchant/1471699985_19Aug_SS_Sale_1.jpg",
+      "tnc": "https://grofers.com/terms",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472090988"
+    },
+    {
+      "id": 8,
+      "title": "8 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (nothing, non clickable)",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/Freshbury_paytm_notification.jpg",
+      "unseen": false,
+      "sort_group": 0,
+      "offer_timestamp": "1472096281"
+    },
+    {
+      "id": 8,
+      "title": "8 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (expired, shouldn't be visible)",
+      "uri": "grofers://home?coupon_code=GROFERS20",
+      "expiry_timestamp": 1569210753,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/13oct-payumoney-notify.jpg",
+      "tnc": "https://grofers.com/terms",
+      "unseen": true,
+      "sort_group": 0,
+      "offer_timestamp": "1472101574"
+    },
+    {
+      "id": 9,
+      "title": "9 - Exciting 3 days ahead!",
+      "description": "Valentine or No-Valentine, you’ll still need groceries. Get Rs.75 off on minimum order of Rs.500. (coupon only)",
+      "expiry_timestamp": 1574567553,
+      "image_url": "https://s3.amazonaws.com/grofers-test-1234/images/30nov-SKYN-notify.jpg",
+      "unseen": true,
+      "sort_group": 1,
+      "offer_timestamp": "1470059230"
+    }
+  ]
+}

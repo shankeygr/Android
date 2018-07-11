@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "action": {
+        "default_uri": "grofers://category?expr=%7B%22or%22%3A%20%5B%22p123%22%2C%20%22p17178%22%5D%7D&restricted=false"
+      },
+      "data": {
+        "name": "Super Store - Gurgaon",
+        "id": 20644,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Online Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 12:30 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "grofers",
+        "min_delivery_amount": 12345,
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "10% on all orders above Rs. 350"
+        }
+      },
+      "layout_config": {
+        "type": 667
+      },
+      "type": 3
+    },
+    {
+      "action": {
+        "default_uri": "grofers://category?expr=%7B%22or%22%3A%20%5B%22p123%22%2C%20%22p17178%22%5D%7D&restricted=false"
+      },
+      "data": {
+        "name": "Modern Bazaar - Arjun Marg",
+        "id": 2044,
+        "rating": 3.8,
+        "free_delivery_value": "₹1000, Online Only",
+        "delivered_by_text": "Delivered by Store",
+        "eta_value": "Today, 4:30 PM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "store",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat Rs. 50 off on Rs. 3000"
+        }
+      },
+      "layout_config": {
+        "type": 27
+      },
+      "type": 3
+    },
+    {
+      "action": {
+        "default_uri": "grofers://category?expr=%7B%22or%22%3A%20%5B%22p123%22%2C%20%22p17178%22%5D%7D&restricted=false"
+      },
+      "data": {
+        "name": "In & Out",
+        "id": 20642,
+        "rating": 3.2,
+        "free_delivery_value": "₹250, Online Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 12:30 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "grofers",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        }
+      },
+      "layout_config": {
+        "type": 539
+      },
+      "type": 3
+    },
+    {
+      "action": {
+        "default_uri": "grofers://category?expr=%7B%22or%22%3A%20%5B%22p123%22%2C%20%22p17178%22%5D%7D&restricted=false"
+      },
+      "data": {
+        "name": "Value Store, Gurgaon",
+        "id": 2064444,
+        "rating": 3.2,
+        "free_delivery_value": "₹250, Online Only",
+        "delivered_by_text": "Delivered by Store",
+        "eta_value": "Tomorrow, 12:30 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "store",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "10% cashback on all orders"
+        }
+      },
+      "layout_config": {
+        "type": 27
+      },
+      "type": 3
+    }
+  ]
+}

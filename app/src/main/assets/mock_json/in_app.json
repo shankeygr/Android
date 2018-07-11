@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "aws": {
+      "access_key": "Pp5ry6gmbKY+i3W/8JU2E6Om3X12+12P2tTESOPq",
+      "key_id": "AKIAI2D5DVW6K5U3BACA",
+      "s3_bucket": "grofers-consumer.support"
+    }
+  },
+  "help": [
+    {
+      "comment_mandatory": true,
+      "feedback_type": 1,
+      "automated_reply": {
+        "title": "Your refunds for this order are shown below",
+        "orders": [
+          {
+            "id" : "8136482",
+            "items": [],
+            "refund_text": "Refund of 90 has been initiated. It will reflect in your account by 30th August",
+            "cashback_text": "",
+            "message":"Revised order amount: 450"
+          },
+          {
+            "id" : "8136482",
+            "items": [],
+            "cashback_text": "Cashback will be initiated within 48-72 hours of delivery",
+            "message":"Revised order amount: 450"
+          }
+        ]
+      },
+      "orders": [
+        {
+          "status": {
+            "message": "Order Cancelled",
+            "id": 7
+          },
+          "enabled": true,
+          "id": 8136482
+        }
+      ],
+      "text": "Where is my refund?",
+      "children": [],
+      "message_list": [
+        "Refund upto 250 will reflect in <b>Grofers cash</b> in 24 hours",
+        "Higher amounts will be credited back to <b>your account</b> in <b>7 days</b>"
+      ],
+      "id": 14,
+      "icon": "https://s3-us-west-2.amazonaws.com/grofers/app/images/support/first.png"
+    },
+    {
+      "comment_mandatory": false,
+      "feedback_type": 1,
+      "orders": [
+        {
+          "status": {
+            "message": "Order Cancelled",
+            "id": 7
+          },
+          "enabled": true,
+          "id": 8136482
+        }
+      ],
+      "text": "Others",
+      "message": "Please let us know what issues you're facing and we'll get back to you soon.",
+      "children": [],
+      "id": 15,
+      "icon": "http://cdn.grofers.com/images/others.png"
+    }
+  ],
+  "schedule_slots": [
+    {
+      "step": 1800,
+      "start_time": 1475560800,
+      "tab_title": "Tomorrow",
+      "close_time": 1475589600,
+      "dialog_title": "Deliver Tomorrow at"
+    },
+    {
+      "step": 1800,
+      "start_time": 1475647200,
+      "tab_title": "Day after",
+      "close_time": 1475676000,
+      "dialog_title": "Deliver Day after at"
+    }
+  ]
+}

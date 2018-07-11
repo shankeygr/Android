@@ -1,0 +1,185 @@
+{
+  "objects":[
+
+    {
+
+      "action": {
+
+        "default_uri": null
+
+      },
+
+      "data": {
+
+        "title": "We have chosen the best store for you",
+        "subtitle": "You can always change your store",
+        "action_text": "Ok, Got it",
+        "type_id": 1,
+        "type": "tooltip",
+        "id": 2
+
+      },
+
+      "layout_config": {
+
+        "persistent": false,
+        "bg_color": "#4CAE1A",
+        "action_bg_color": "#47A519"
+
+      },
+
+      "type": 2
+
+    },
+
+    {
+
+      "action": {
+        "default_uri": "grofers://merchant?expr=m3108",
+        "change_store_uri": "grofers://merchants?expr=c79&list_merchants"
+      },
+
+      "data": {
+
+        "name": "Om Sweets - Sector 31",
+        "id": "3108",
+        "free_delivery_value": "u\\20b9350, Cash Only",
+        "eta_value": "Today, 8 PM - 10 PM",
+        "eta_title": "Delivery by",
+        "eta_color": "#72727",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "change_store_disable_toast": "There are no other stores nearby which sell products in this category",
+
+        "offer_placeholder": {
+
+          "text": "",
+          "text_color": ""
+
+        }
+
+      },
+
+      "layout_config": {
+        "type": 37
+      },
+
+      "type": 3
+    }
+  ],
+
+  "data": {
+    "merchant_category_id": 28,
+    "category_title": "Biscuits & Cookies",
+    "merchant": {
+
+      "name": "Om Sweets - Sector 31",
+      "id": "3108",
+      "min_order": "400",
+      "delivery_charge": "29",
+      "free_delivery_text": "Free delivery above u\\20b9350",
+      "eta_text": "Delivery by Today, 8 PM - 10 PM",
+
+      "subcategories": [
+        {
+
+          "id": "87",
+          "pc_id": "2",
+          "name": "Sweets",
+        "subcategory": [
+        {
+        "id": 80,
+        "pc_id": 2,
+        "name": "Apple"
+        }
+        ]
+
+        }
+      ,
+        {
+
+          "id": "86",
+          "pc_id": "2",
+          "name": "Savouries"
+
+        }
+
+      ,
+
+
+
+        {
+
+          "id": "338",
+          "pc_id": "2",
+          "name": "Assortments & Gifts"
+
+        }
+      ,
+
+
+
+        {
+
+          "id": "79",
+          "pc_id": "2",
+          "name": "Chocolates"
+
+        }
+
+      ,
+
+
+
+        {
+
+          "id": "76",
+          "pc_id": "2",
+          "name": "Cookies & Biscuits"
+
+        }
+
+      ,
+
+
+
+        {
+
+          "id": "109",
+          "pc_id": "2",
+          "name": "Dry Cakes"
+
+        }
+
+      ,
+
+
+
+        {
+
+          "id": "129",
+          "pc_id": "2",
+          "name": "Pastries & More"
+
+        }
+
+      ,
+
+
+
+        {
+
+          "id": "886",
+          "pc_id": "406",
+          "name": "Navratri Special"
+
+        }
+
+
+
+
+      ]
+    }
+  }
+
+}

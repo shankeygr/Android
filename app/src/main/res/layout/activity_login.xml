@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <!--<com.gotution.app.customviews.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_size"
+        android:paddingLeft="@dimen/abc_action_bar_default_padding_material"
+        app:title="Login" />-->
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:scrollbarStyle="outsideOverlay">-->
+
+    <ImageView
+        android:layout_width="82dp"
+        android:layout_height="93dp"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:padding="@dimen/horizontal_padding_xxsmall"
+        android:paddingTop="@dimen/vertical_padding_regular"
+        android:src="@drawable/app_logo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/horizontal_padding_xxsmall">
+
+            <LinearLayout
+                android:id="@+id/layout_login_phone_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/white_rounded_rectangle_dbdbdb_border"
+                android:orientation="vertical">
+
+                <com.gotution.app.customviews.TextViewRegularFont
+                    android:id="@+id/tv_enter_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="@dimen/vertical_padding_regular"
+                    android:paddingRight="@dimen/vertical_padding_regular"
+                    android:paddingTop="@dimen/vertical_padding_regular"
+                    android:text="@string/str_phone_verification_text"
+                    android:textColor="@color/BLU"
+                    android:textSize="@dimen/font_size_xxxxlarge" />
+
+                <LinearLayout
+                    android:id="@+id/phone_number_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/vertical_padding_large"
+                    android:paddingLeft="@dimen/horizontal_padding_medium"
+                    android:paddingRight="@dimen/horizontal_padding_medium">
+
+                    <TextView
+                        android:id="@+id/et_areacode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:inputType="none"
+                        android:paddingBottom="@dimen/horizontal_padding_small"
+                        android:paddingLeft="@dimen/horizontal_padding_micro"
+                        android:paddingRight="@dimen/horizontal_padding_micro"
+                        android:paddingTop="@dimen/horizontal_padding_small"
+                        android:text="+91"
+                        android:textColor="@color/GBL1"
+                        android:textSize="@dimen/font_size_xmedium" />
+
+                    <EditText
+                        android:id="@+id/et_enter_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:digits="0123456789"
+                        android:gravity="center_vertical"
+                        android:hint="@string/verify_mobile"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:paddingBottom="@dimen/horizontal_padding_small"
+                        android:paddingLeft="@dimen/horizontal_padding_small"
+                        android:paddingRight="@dimen/horizontal_padding_small"
+                        android:paddingTop="@dimen/horizontal_padding_small"
+                        android:singleLine="true"
+                        android:textColor="@color/GBL1"
+                        android:textColorHint="@color/GBL3"
+                        android:textCursorDrawable="@null"
+                        android:textSize="@dimen/font_size_xmedium" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/next_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:background="@drawable/bottom_rounded_gbl4"
+                    android:gravity="center"
+                    android:onClick="getOTP"
+                    android:text="Continue"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_mini" />
+            </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

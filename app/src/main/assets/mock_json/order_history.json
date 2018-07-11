@@ -1,0 +1,72 @@
+{
+  "count": 25,
+  "next": "url",
+  "previous": null,
+  "results": [
+    {
+      "hash_id": "GR233767471",
+      "id": 9834343,
+      "cart_id": 89343434,
+      "merchant": {
+        "id": 13567,
+        "name": "Value Store"
+      },
+      "checkout_time": "Today 11:30 am",
+      "scheduled_time": "String of slot start and end",
+      "is_cancellable": true,
+      "cancellable_text": "Are you sure?",
+      "is_reschedulable": true,
+      "deliverer": {
+        "phone": "9538948470",
+        "name": "GIRISH R",
+        "type": "grofers",
+        "title": "delivered by grofers"
+      },
+      "pricing_detail": {
+        "total_amount": 960,
+        "delivery_charge": 49,
+        "discount_amount": 40,
+        "wallet_amount": 43,
+        "special_discount": 43,
+        "special_message": "dsfsfsd",
+        "payable_amount": 940
+      },
+      "payment": {
+        "mode": "COD",
+        "id": 10668037,
+        "mode_type": 0,
+        "text": "some text here"
+      },
+      "delivery_address": {
+        "city": "Gurgaon",
+        "line2": "Unitech Residences ",
+        "id": 5846863,
+        "pincode": null,
+        "line1": "B4 801 ",
+        "landmark": "Sector 33",
+        "state": "",
+        "name": "Satyam Krishna"
+      },
+      "status": {
+        "status": "CANCELLED",
+        "message": "Order Cancelled",
+        "id": 7
+      },
+      "XYZ-refund": [
+        {
+          "type": "refund",
+          "amount": 150,
+          "processed": true,
+          "text": "text string here"
+        },
+        {
+          "type": "cashback",
+          "calculated": 0,
+          "applied": 0,
+          "state": 1,
+          "text": "text string here"
+        }
+      ]
+    }
+  ]
+}

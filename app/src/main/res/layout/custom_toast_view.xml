@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_container"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.gotution.app.customviews.TextViewRegularFont
+        android:id="@+id/txt_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_mini"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_toast_background"
+        android:layout_marginRight="@dimen/toast_margin"
+        android:layout_marginLeft="@dimen/toast_margin"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+</FrameLayout>

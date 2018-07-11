@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+        <color name="actionbar">#1c2224</color>
+        <color name="actionbar_text">@color/white</color>
+        <color name="actionbar_subtext">@color/GBL6</color>
+        <color name="actionbar_icon">@color/white</color>
+        <color name="statusbar">#141819</color>
+        <color name="searchbar">#262c2e</color>
+
+        <!--BLACK COLOR PALLETES-->
+        <color name="GBL1">#333333</color>
+        <color name="GBL1.5">#3e464a</color> <!-- TODO -->
+        <color name="GBL2">#666666</color>
+        <color name="GBL3">#999999</color>
+        <color name="GBL4">#cccccc</color>
+        <color name="GBL4.5">#d0d0d0</color> <!-- TODO GRK2 -->
+        <color name="GBL5">#eeeeee</color>
+        <color name="GBL6">#f4f4f4</color>
+        <color name="GBL7">#eaeaeaea</color>
+        <color name="GBL8">#f2f2f2</color>
+        <color name="GBL9">#949494</color>
+        <color name="almost_white">#fcfcfc</color>
+        <color name="dbdbdb">#dbdbdb</color>
+        <color name="black_bold">#262626</color>
+        <color name="black_323232">#323232</color>
+        <color name="warm_grey_888888">#888888</color>
+
+        <!--ORANGE COLOR PALLETES-->
+        <color name="G00">#bf501f</color>
+        <color name="GO1">#c74b14</color>
+        <color name="G01.5">#cc4c46</color>
+        <color name="GO2">#de5416</color>
+        <color name="GO3">#e96125</color>
+        <color name="GO4">#eb723c</color>
+        <color name="GO4_5">#FF7144</color>
+        <color name="GO5">#ee8353</color>
+        <color name="GO6">#f0936a</color>
+        <color name="GO7">#fdefe9</color>
+        <color name="G08">#f9d0be</color>
+        <color name="G09">#ed7d4c</color>
+        <color name="G10">#ee885a</color>
+        <color name="G11">#fdf0eb</color>
+
+        <!--BLUE COLOR PALLETES-->
+        <color name="BLU">#0D2C9C</color>
+        <color name="BLU1">#2c8196</color>
+        <color name="BLU2">#3192aa</color>
+        <color name="BLU3">#37a3be</color>
+        <color name="BLU4">#45afc9</color>
+        <color name="BLU5">#59b7cf</color>
+        <color name="BLU6">#6dc0d5</color>
+        <color name="BLU7">#f0fbff</color>
+
+
+        <!-- Color CVV Checked/Unchecked -->
+        <color name="cvv_unchecked">#fbdfd3</color>
+        <color name="cvv_checked">#e96125</color>
+
+        <color name="GO3_40_percent">#66E96125</color>
+
+        <color name="rating_yellow">#ecc700</color>
+        <color name="yellow_fbf9de">#fbf9de</color>
+        <color name="yellow_fdf9e7">#fdf9e7</color>
+        <color name="selected_category">#fffbc7</color>
+
+        <!-- Optimized -->
+        <color name="grofers_orange">@color/GO3</color>
+        <color name="divider_color">@color/GBL5</color>
+        <color name="address_divider_color">#dddddd</color>
+
+        <color name="black">#000000</color>
+        <color name="black_opacity">#77000000</color>
+        <color name="white">#ffffff</color>
+        <color name="light_green">#00FF8A</color>
+        <color name="green_backg">#90c96e</color>
+        <color name="balance">#51aa1b</color>
+        <color name="green">#60bc29</color>
+        <color name="green2">#95da93</color>
+        <color name="green_f2fdf1">#f2fdf1</color>
+        <color name="green_55ac20">#55ac20</color>
+        <color name="green_96ca7b">#96ca7b</color>
+        <color name="green_73af59">#73af59</color>
+        <color name="green_73c04d">#73c04d</color>
+        <color name="green_54b226">#54b226</color>
+        <color name="grofers_blue">#2C3E50</color>
+        <color name="grey">#D0CECD</color>
+        <color name="grey_d8d8d8">#D8D8D8</color>
+        <color name="transparent_white">#00ffffff</color>
+        <color name="grey_with_80_percent_opacity">#99333333</color>
+        <color name="grey_with_30_percent_opacity">#4D333333</color>
+        <color name="very_light_grey">#CCCCCC</color>
+        <color name="black_333333">#333333</color>
+        <color name="light_grey_666666">#666666</color>
+        <color name="light_grey_999999">#999999</color>
+        <color name="grofers_orange_pressed">#ae441a</color>
+        <color name="color_green">#289F2B</color>
+        <color name="color_green_disabled">#9FD79D</color>
+        <color name="color_delivery_charge">@color/cart_merchant_warning_text</color>
+        <color name="color_red">#CC4C46</color>
+        <color name="color_red_eb5454">#eb5454</color>
+        <color name="color_red_ed2a34">#ed2a34</color>
+        <color name="color_red_ef1515">#ef1515</color>
+        <color name="color_red_ff4444">#ff4444</color>
+        <color name="color_red_ff838b">#ff838b</color>
+        <color name="color_red_f34343">#f34343</color>
+        <color name="color_red_f64545">#f64545</color>
+        <color name="color_red_e73838">#e73838</color>
+        <color name="color_red_f89a9b">#f89a9b</color>
+        <color name="red_f87777">#f87777</color>  <!-- TODO GRR3 -->
+        <color name="color_red_fffafa">#fffafa</color>
+        <color name="color_red_feeeee">#feeeee</color>
+        <color name="color_red_disabled">#F39594</color>
+        <color name="light_grey_AAAAAA">#AAAAAA</color>
+        <color name="merchant_offer_red">#e32929</color>
+        <color name="orange_e96125">#E96125</color>
+        <color name="orange_e96126">#E96126</color>
+        <color name="orange_f19a74">#f19a74</color>
+        <color name="orange_fff6f2">#fff6f2</color>
+        <color name="grey_FAFAFA">#FAFAFA</color>
+        <color name="offer_back">#f8fff1</color>
+        <color name="grey_cccccc">#CCCCCC</color>
+        <color name="grey_121518">#121518</color>
+        <color name="white_f8f8f8">#f8f8f8</color>
+        <color name="grey_f9f9f9">#f9f9f9</color>
+        <color name="faded_orange">#f4ae90</color>
+        <color name="grey_9d9d9d">#9d9d9d</color>
+        <color name="grey_535353">#9d9d9d</color>
+        <color name="f5f5f5">#f5f5f5</color>
+        <color name="f6f6f6">#f6f6f6</color>
+        <color name="truecaller_blue">#0086fe</color>
+        <color name="truecaller_blue_pressed">#0076ee</color>
+        <color name="color_fdf9e7">#fdf9e7</color> <!-- TODO GRY8 -->
+
+        <color name="seperator_color">#D6D7D8</color>
+        <color name="light_grey_99666666">#99666666</color>
+        <color name="pressed_color_transparent">#50FFFFFF</color>
+        <color name="ripple_color_transparent">#50FFFFFF</color>
+        <color name="white_color_ripple">#BB999999</color>
+        <color name="green_61BC2A">#61BC2A</color>
+        <color name="light_cream">#fdfbf5</color>
+        <color name="green_EBFEE2">#EBFEE2</color>
+        <color name="green_6FBB42">#6FBB42</color>
+        <color name="green_60ad33">#60ad33</color>
+        <color name="green_37bea6">#37bea6</color>
+        <color name="ea5454">#ea5454</color>
+        <color name="green_3e8911">#3e8911</color>
+        <color name="green_51aa1b">#51aa1b</color>
+        <color name="blue_24839a">#24839a</color>
+        <color name="blue_37a3be">#37a3be</color>
+        <color name="blue_3295ad">#3295ad</color>
+
+        <color name="grey_f2f2f2">#f2f2f2</color>
+
+        <color name="yellow_fffed1">#fffed1</color>
+        <color name="yellow_fffeed">#fffeed</color>
+
+        <color name="image_border_color">#44000000</color>
+
+        <!-- ActionBar -->
+        <color name="actionBarTextColor">@color/grofers_orange</color>
+        <color name="actionBarBackground">@color/actionbar</color>
+
+        <!-- MerchantName -->
+        <color name="popularTextColor">@color/grofers_orange</color>
+
+        <!-- MerchantSearch List Text Color -->
+        <color name="merchantNameColor">@color/grofers_orange</color>
+        <color name="merchantAddressColor">@color/light_grey_666666</color>
+        <color name="ListItemPressedColor">@color/grey</color>
+        <color name="merchantListSubItemsTextColor">@color/grey</color>
+
+        <color name="categories_color">@color/orange_e96125</color>
+        <color name="merchant_name_in_list_color">@color/black_333333</color>
+        <color name="locality_color_list">@color/light_grey_999999</color>
+        <color name="estimated_time_box">@color/grey_FAFAFA</color>
+
+        <!-- orange_circle.xml -->
+        <color name="orange_circle_color">@color/grofers_orange</color>
+        <color name="orange_circle_border">@color/grey_cccccc</color>
+
+        <!-- splash background -->
+        <color name="splash_background">@color/grey_121518</color>
+        <color name="list_item_pressed">@color/f5f5f5</color>
+        <color name="list_item_normal">@color/white</color>
+        <color name="white_pressed_feed">#fafafa</color>
+
+        <!-- MerchantSearch list custom Action bar -->
+        <color name="navigational_drawer">@color/light_grey_99666666</color>
+
+        <!-- Floating Action Button Colors -->
+
+        <color name="background">#e5e5e5</color>
+        <color name="half_black">#808080</color>
+        <color name="white_pressed">#f1f1f1</color>
+        <color name="pink">#e91e63</color>
+        <color name="pink_pressed">#ec407a</color>
+        <color name="blue_semi_transparent">#805677fc</color>
+        <color name="blue_semi_transparent_pressed">#80738ffe</color>
+        <color name="black_semi_transparent">#80000000</color>
+
+        <!-- Order History -->
+
+        <color name="order_history_date_time">@color/light_grey_999999</color>
+        <color name="order_history_dark_grey">#687180</color>
+        <color name="order_history_grey">@color/seperator_color</color>
+        <color name="order_history_seperator">@color/seperator_color</color>
+        <color name="order_history_seperator_O">@color/color_green</color>
+        <color name="order_history_red">@color/color_red</color>
+        <color name="order_history_green">@color/color_green</color>
+
+
+        <!-- Navigation drawer colors -->
+        <color name="location_background_color">#f7f7f7</color>
+        <color name="checkout_button_color">#f7f7f7</color>
+        <color name="cart_checkout_button">@color/grofers_orange</color>
+        <color name="cart_price_background_color">@color/grofers_orange_pressed</color>
+        <color name="cart_merchant_warning_text">#f34343</color>
+        <color name="cart_merchant_warning_background">#fff5f5</color>
+        <color name="cart_merchant_shop_more_background">#fffdf6</color>
+        <color name="cart_merchant_positive_text">@color/color_green</color>
+        <color name="cart_merchant_positive_background">#DCF1DE</color>
+        <color name="cart_merchant_green_text">#57ad22</color>
+        <color name="cart_merchant_green_background">#f3ffed</color>
+
+        <!--Segmented Radio Button -->
+        <color name="radio_button_selected_color">@color/grofers_orange</color>
+        <color name="radio_button_unselected_color">@android:color/transparent</color>
+
+        <color name="background_tab_pressed">@color/transparent_white</color>
+        <color name="background_out_of_error">@color/white</color>
+
+        <color name="email_edittext">#BFBFBF</color>
+
+        <!-- Merchant Tooltip Widget -->
+        <color name="blue_3782bc">#3782bc</color>
+        <color name="blue_3077ae">#3077ae</color>
+        <color name="green_4cae1a">#4cae1a</color>
+        <color name="green_48a519">#48a519</color>
+
+        <!-- Minimum delivery footer -->
+        <color name="min_del_footer_red">#f15a5a</color>
+        <color name="min_del_footer_green">#52b133</color>
+
+        <color name="red_ee0606">#ee0606</color>
+
+        <color name="progress_bar_highlight">@color/grofers_orange</color>
+        <color name="progress_bar_nohighlight">@color/GBL6</color>
+
+        <color name="referral_seperator_colour">#6dc0d5</color>
+
+        <color name="fb_colour">#375794</color>
+        <color name="whatsapp_colour">#37be3c</color>
+        <color name="whatsapp_colour_clicked">#31aa35</color>
+        <color name="sms_colour">#27ae5f</color>
+        <color name="share_colour">#3eb8d7</color>
+        <color name="tint">#99000000</color>
+
+        <array name="progress_colors">
+            <item>#EE0909</item>
+            <item>#EE5709</item>
+            <item>#EE9709</item>
+            <item>#EED009</item>
+            <item>#BCEE09</item>
+            <item>#82B905</item>
+            <item>#328300</item>
+        </array>
+        <array name="rating_colors">
+            <item>#EE0909</item>
+            <!--<item>#EE5709</item>-->
+            <item>#EE9709</item>
+            <item>#EED009</item>
+            <!--<item>#BCEE09</item>-->
+            <item>#82B905</item>
+            <!--<item>#328300</item>-->
+        </array>
+
+        <color name="help_list_header">#f3f3f3</color>
+
+        <color name="hotline_message_list_reply_view_divider">@color/GBL5</color>
+
+        <!--TODO: GET UPDATED PALLET FROM JEMNI-->
+
+        <color name="green_b1dc9c">#b1dc9c</color>
+        <color name="green_f0fff1">#f0fff1</color>
+        <color name="green_459220">#459220</color>
+        <color name="green_92ce74">#92ce74</color>
+
+
+        <color name="yellow_ffe197">#ffe197</color>
+        <color name="yellow_ffeab5">#ffeab5</color>
+        <color name="yellow_ffd97a">#ffd97a</color>
+        <color name="yellow_ffd15d">#ffd15d</color>
+
+        <color name="hero_widget_primary">#43b9c6</color>
+        <color name="hero_widget_dark">#0ea3b4</color>
+        <color name="hero_widget_text">#07aec1</color>
+
+        <color name="blue_07AEC1">#07AEC1</color> <!-- TODO -->
+        <color name="blue_43b9c6">#43b9c6</color> <!-- TODO: Confirm Colour Palette with J-God  -->
+        <color name="blue_edfbfd">#edfbfd</color> <!-- TODO: Confirm Colour Palette with J-God  -->
+        <color name="blue_92dee7">#92dee7</color> <!-- TODO: Confirm Colour Palette with J-God  -->
+        <color name="blue_c9e5ec">#c9e5ec</color> <!-- TODO: Confirm Colour Palette with J-God  -->
+
+</resources>

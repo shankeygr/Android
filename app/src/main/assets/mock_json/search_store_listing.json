@@ -1,0 +1,281 @@
+{
+  "objects": [
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=20644"
+      },
+      "data": {
+        "name": "Super Store, Gurgaon",
+        "id": 20644,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Cash Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "grofers",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        },
+        "product_images": [
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184279.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184281.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329102.jpg?1474208654",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269420.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_202904.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329199.jpg?1473923564",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269413.jpg?1472473100",
+          "http://cdn.grofers.com/app/images/placeholders/placeholder.jpg"
+        ]
+      },
+      "layout_config": {
+        "type": 68
+      },
+      "type": 3
+    },
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=2044"
+      },
+      "data": {
+        "name": "Modern Bazaar, Gurgaon",
+        "id": 2044,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Cash Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "store",
+        "product_images": [
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184279.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184281.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329102.jpg?1474208654",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269420.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_202904.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329199.jpg?1473923564",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269413.jpg?1472473100",
+          "http://cdn.grofers.com/app/images/placeholders/placeholder.jpg"
+        ],
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        }
+      },
+      "layout_config": {
+        "type": 4
+      },
+      "type": 3
+    },
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=20642"
+      },
+      "data": {
+        "name": "SS2",
+        "id": 20642,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Cash Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "grofers",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        }
+      },
+      "layout_config": {
+        "type": 4
+      },
+      "type": 3
+    },
+
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=2064444"
+      },
+      "data": {
+        "name": "SS4",
+        "id": 2064444,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Cash Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "store",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        }
+      },
+      "layout_config": {
+        "type": 4
+      },
+      "type": 3
+    }
+  ],
+  "data": {
+    "toolbar_text":"apple",
+    "categories": [
+      {
+        "id": -1,
+        "merchant_sort_order": [
+          20438,
+          10469,
+          4839,
+          14417,
+          20644,
+          25519,
+          8782,
+          19968,
+          6697,
+          21206
+        ],
+        "name": "All"
+      },
+      {
+        "id": 459,
+        "merchant_sort_order": [
+          8782
+        ],
+        "name": "Audio & Video"
+      },
+      {
+        "id": 597,
+        "merchant_sort_order": [
+          20438,
+          10469
+        ],
+        "name": "Baby Care"
+      },
+      {
+        "id": 12,
+        "merchant_sort_order": [
+          10469,
+          20438,
+          4839,
+          14417,
+          6697
+        ],
+        "name": "Beverages"
+      },
+      {
+        "id": 13,
+        "merchant_sort_order": [
+          503
+        ],
+        "name": "Biscuits, Snacks & Chocolates"
+      },
+      {
+        "id": 690,
+        "merchant_sort_order": [
+          20438,
+          10469,
+          4839
+        ],
+        "name": "Body & Face Care"
+      },
+      {
+        "id": 14,
+        "merchant_sort_order": [
+          10469,
+          20438,
+          14417,
+          20087
+        ],
+        "name": "Breakfast & Dairy"
+      },
+      {
+        "id": 15,
+        "merchant_sort_order": [
+          10469,
+          4839,
+          20438,
+          14417,
+          503
+        ],
+        "name": "Canned & Packaged Food"
+      },
+      {
+        "id": 244,
+        "merchant_sort_order": [
+          20438,
+          8782
+        ],
+        "name": "Computer Accessories"
+      },
+      {
+        "id": 693,
+        "merchant_sort_order": [
+          20438
+        ],
+        "name": "Cosmetics"
+      },
+      {
+        "id": 80,
+        "merchant_sort_order": [
+          20644,
+          25519,
+          20438
+        ],
+        "name": "Fruits"
+      },
+      {
+        "id": 691,
+        "merchant_sort_order": [
+          10469
+        ],
+        "name": "Hair Care"
+      },
+      {
+        "id": 177,
+        "merchant_sort_order": [
+          20438,
+          8782
+        ],
+        "name": "Mobile Accessories"
+      },
+      {
+        "id": 176,
+        "merchant_sort_order": [
+          20438,
+          8782,
+          21206
+        ],
+        "name": "Mobiles & Tablets"
+      },
+      {
+        "id": 695,
+        "merchant_sort_order": [
+          20438,
+          19968
+        ],
+        "name": "OTC & Wellness"
+      },
+      {
+        "id": 78,
+        "merchant_sort_order": [
+          16990
+        ],
+        "name": "Pies & Tarts"
+      },
+      {
+        "id": 87,
+        "merchant_sort_order": [
+          3108
+        ],
+        "name": "Sweets"
+      }
+    ]
+  }
+}

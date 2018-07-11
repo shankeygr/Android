@@ -1,0 +1,2064 @@
+{
+  "objects":[
+
+
+
+    {
+      "objects": [
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=26171"
+          },
+          "type": 4,
+          "data": {
+            "id": "17198",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475665494_5Oct_MidweekCarnival_15.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Midweek Carnival"
+          }
+        }
+
+      ,
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=26171"
+          },
+          "type": 4,
+          "data": {
+            "id": "17199",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475603401_Detergent.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Detergents"
+          }
+        }
+
+      ,
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=20644"
+          },
+          "type": 4,
+          "data": {
+            "id": "14670",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475527659_Delhi_ncr.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Freshbury Super Store"
+          }
+        }
+
+      ,
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=26171"
+          },
+          "type": 4,
+          "data": {
+            "id": "17207",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475581376_Generic_1.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Everyday Savings Store"
+          }
+        }
+
+      ,
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=26171"
+          },
+          "type": 4,
+          "data": {
+            "id": "17210",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475595910_1474954404_Pepsi-banner.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Pepsi Galleria"
+          }
+        }
+
+      ,
+
+
+
+        {
+
+          "action": {
+            "default_uri": "grofers://merchant?id=26171"
+          },
+          "type": 4,
+          "data": {
+            "id": "17212",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1475068117_maggie.jpg",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "title": "Good Food, Good Life"
+          }
+        }
+
+
+
+
+
+      ],
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "type": 0
+    }
+
+
+
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 1,
+        "title": "Grocery",
+        "subtitle": "Beverages, Biscuits, Snacks & Chocolates, Breakfast & Dairy, Canned & Packaged Food, Grocery & Staples, Household Needs, Daily Essentials at Best Prices, Grofers Big Box",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067359_1_Grocery.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c12"
+          },
+          "type": 5,
+          "data": {
+            "id": "12",
+            "title": "Beverages",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463035177_Beverages_2.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c13"
+          },
+          "type": 5,
+          "data": {
+            "id": "13",
+            "title": "Biscuits, Snacks & Chocolates",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459601708_biscuits-and-snack-.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c14"
+          },
+          "type": 5,
+          "data": {
+            "id": "14",
+            "title": "Breakfast & Dairy",
+            "image": "http://cdn.grofers.com/app/images/category/large/1455873935_Breakfast-4.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c15"
+          },
+          "type": 5,
+          "data": {
+            "id": "15",
+            "title": "Canned & Packaged Food",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414663_Canned--Packaged-food.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c16"
+          },
+          "type": 5,
+          "data": {
+            "id": "16",
+            "title": "Grocery & Staples",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459601771_grocery-staples.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c18"
+          },
+          "type": 5,
+          "data": {
+            "id": "18",
+            "title": "Household Needs",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459601933_HOuseholdNeeds.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c525"
+          },
+          "type": 5,
+          "data": {
+            "id": "525",
+            "title": "Daily Essentials at Best Prices",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414701_Offer-Zone.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c858"
+          },
+          "type": 5,
+          "data": {
+            "id": "858",
+            "title": "Grofers Big Box",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 2,
+        "title": "Bakery & Sweets",
+        "subtitle": "Cakes, Cookies & Biscuits, Breads & Sandwiches, Pies & Tarts, Chocolates, Savouries, Sweets, Dry Cakes, Doughnuts, Pastries & More, Assortments & Gifts",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067354_2_Bakery--Sweets.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c75"
+          },
+          "type": 5,
+          "data": {
+            "id": "75",
+            "title": "Cakes",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947342_1Cake.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c76"
+          },
+          "type": 5,
+          "data": {
+            "id": "76",
+            "title": "Cookies & Biscuits",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947314_cookies--Biscuits-3.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c77"
+          },
+          "type": 5,
+          "data": {
+            "id": "77",
+            "title": "Breads & Sandwiches",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462948004_sandwich_02.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c78"
+          },
+          "type": 5,
+          "data": {
+            "id": "78",
+            "title": "Pies & Tarts",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414782_Pies-and-tarts-2.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c79"
+          },
+          "type": 5,
+          "data": {
+            "id": "79",
+            "title": "Chocolates",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414883_Chocolates006.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c86"
+          },
+          "type": 5,
+          "data": {
+            "id": "86",
+            "title": "Savouries",
+            "image": "http://cdn.grofers.com/app/images/category/large/1460181402_Savouries.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c87"
+          },
+          "type": 5,
+          "data": {
+            "id": "87",
+            "title": "Sweets",
+            "image": "http://cdn.grofers.com/app/images/category/large/1460181346_Sweets.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c109"
+          },
+          "type": 5,
+          "data": {
+            "id": "109",
+            "title": "Dry Cakes",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947292_Dry-cake.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c110"
+          },
+          "type": 5,
+          "data": {
+            "id": "110",
+            "title": "Doughnuts",
+            "image": "http://cdn.grofers.com/app/images/category/large/1460180781_Doughnuts-1.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c129"
+          },
+          "type": 5,
+          "data": {
+            "id": "129",
+            "title": "Pastries & More",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414742_PasteriesMoreBanner02.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c338"
+          },
+          "type": 5,
+          "data": {
+            "id": "338",
+            "title": "Assortments & Gifts",
+            "image": "http://cdn.grofers.com/app/images/category/large/1460180623_Assorted-boxes--7.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 3,
+        "title": "Flowers",
+        "subtitle": "Flowers, Flower Combos",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067346_3_Flowers.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c83"
+          },
+          "type": 5,
+          "data": {
+            "id": "83",
+            "title": "Flowers",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947269_Flowers_01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c415"
+          },
+          "type": 5,
+          "data": {
+            "id": "415",
+            "title": "Flower Combos",
+            "image": "http://cdn.grofers.com/app/images/category/large/1450875183_ChocoFlowerCakeBear01.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 4,
+        "title": "Meats & Seafood",
+        "subtitle": "Seafood, Frozen & Chilled Food, White Meat, Red Meat, Meat Spices",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067340_4_Meats--Seafood.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c63"
+          },
+          "type": 5,
+          "data": {
+            "id": "63",
+            "title": "Seafood",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463640672_SeaFoodBanner.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c64"
+          },
+          "type": 5,
+          "data": {
+            "id": "64",
+            "title": "Frozen & Chilled Food",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454213996_frozen-food-and-meat_option_2.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c65"
+          },
+          "type": 5,
+          "data": {
+            "id": "65",
+            "title": "White Meat",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463640696_Meat-Banner.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c67"
+          },
+          "type": 5,
+          "data": {
+            "id": "67",
+            "title": "Red Meat",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463640720_Meats-Banner-9.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c227"
+          },
+          "type": 5,
+          "data": {
+            "id": "227",
+            "title": "Meat Spices",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461414965_Meat-Spices04.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 5,
+        "title": "Pet Care",
+        "subtitle": "Dog Food & Treats, Cat Food & Treats, Small Pet Supplies, Dog Grooming & Accessories, Cat Grooming & Accessories",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067337_5_Pet-Care.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c133"
+          },
+          "type": 5,
+          "data": {
+            "id": "133",
+            "title": "Dog Food & Treats",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461417665_Dog-treat-3.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c134"
+          },
+          "type": 5,
+          "data": {
+            "id": "134",
+            "title": "Cat Food & Treats",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947674_Cat-food.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c137"
+          },
+          "type": 5,
+          "data": {
+            "id": "137",
+            "title": "Small Pet Supplies",
+            "image": "http://cdn.grofers.com/app/images/category/large/1451468595_SmallPetFoodBanner.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c402"
+          },
+          "type": 5,
+          "data": {
+            "id": "402",
+            "title": "Dog Grooming & Accessories",
+            "image": "http://cdn.grofers.com/app/images/category/large/1451308200_DogGroomingMisc01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c403"
+          },
+          "type": 5,
+          "data": {
+            "id": "403",
+            "title": "Cat Grooming & Accessories",
+            "image": "http://cdn.grofers.com/app/images/category/large/1451378337_B_F_Fillets-back.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 7,
+        "title": "Baby & Kids",
+        "subtitle": "Toys & Games, Baby Care",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067327_7-Baby--Kids.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c305"
+          },
+          "type": 5,
+          "data": {
+            "id": "305",
+            "title": "Toys & Games",
+            "image": "http://cdn.grofers.com/app/images/category/large/1455540658_toys.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c597"
+          },
+          "type": 5,
+          "data": {
+            "id": "597",
+            "title": "Baby Care",
+            "image": "http://cdn.grofers.com/app/images/category/large/1455540704_BabyCategory00002.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 9,
+        "title": "Fresh Produce",
+        "subtitle": "Fruits, Vegetables, Herbs, Exotics, Fruit & Vegetable Baskets, Cold Pressed Juices, Sprouts & Cut Fresh, Imported Fruits, Speciality Dairy, Dried Fruits",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067321_9_Fresh-Produce.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c80"
+          },
+          "type": 5,
+          "data": {
+            "id": "80",
+            "title": "Fruits",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459601467_Fruits03.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c81"
+          },
+          "type": 5,
+          "data": {
+            "id": "81",
+            "title": "Vegetables",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459601646_Vegetables.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c151"
+          },
+          "type": 5,
+          "data": {
+            "id": "151",
+            "title": "Herbs",
+            "image": "http://cdn.grofers.com/app/images/category/large/1460181211_herb.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c278"
+          },
+          "type": 5,
+          "data": {
+            "id": "278",
+            "title": "Exotics",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454590782_Exotic.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c342"
+          },
+          "type": 5,
+          "data": {
+            "id": "342",
+            "title": "Fruit & Vegetable Baskets",
+            "image": "http://cdn.grofers.com/app/images/category/large/1447512606_342.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c367"
+          },
+          "type": 5,
+          "data": {
+            "id": "367",
+            "title": "Cold Pressed Juices",
+            "image": "http://cdn.grofers.com/app/images/category/large/1448186981_unnamed.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c395"
+          },
+          "type": 5,
+          "data": {
+            "id": "395",
+            "title": "Sprouts & Cut Fresh",
+            "image": "http://cdn.grofers.com/app/images/category/large/1464094888_1-1453982410_Cut-fresh.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c731"
+          },
+          "type": 5,
+          "data": {
+            "id": "731",
+            "title": "Imported Fruits",
+            "image": "http://cdn.grofers.com/app/images/category/large/1464067859_Imported_fruits.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c819"
+          },
+          "type": 5,
+          "data": {
+            "id": "819",
+            "title": "Speciality Dairy",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467434309_Dairy-banner-3.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c833"
+          },
+          "type": 5,
+          "data": {
+            "id": "833",
+            "title": "Dried Fruits",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 163,
+        "title": "Beauty & Wellness",
+        "subtitle": "Body & Face Care, Hair Care, Grooming Needs, Cosmetics, Fragrances, OTC & Wellness, Oral Care, Feminine Hygiene",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067315_163_Beauty--Wellness.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c690"
+          },
+          "type": 5,
+          "data": {
+            "id": "690",
+            "title": "Body & Face Care",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462357755_Bodyfacecar.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c691"
+          },
+          "type": 5,
+          "data": {
+            "id": "691",
+            "title": "Hair Care",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462357789_hair-care.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c692"
+          },
+          "type": 5,
+          "data": {
+            "id": "692",
+            "title": "Grooming Needs",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462357825_GroomingB2.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c693"
+          },
+          "type": 5,
+          "data": {
+            "id": "693",
+            "title": "Cosmetics",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462357886_Cosmetics01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c694"
+          },
+          "type": 5,
+          "data": {
+            "id": "694",
+            "title": "Fragrances",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462357937_Fragrances.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c695"
+          },
+          "type": 5,
+          "data": {
+            "id": "695",
+            "title": "OTC & Wellness",
+            "image": "http://cdn.grofers.com/app/images/category/large/1464090054_OTC__Sexual_Wellness_1.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c722"
+          },
+          "type": 5,
+          "data": {
+            "id": "722",
+            "title": "Oral Care",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463720663_OralCare.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c723"
+          },
+          "type": 5,
+          "data": {
+            "id": "723",
+            "title": "Feminine Hygiene",
+            "image": "http://cdn.grofers.com/app/images/category/large/1464090181_Feminine-Hygiene_1.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 175,
+        "title": "Electronics",
+        "subtitle": "Mobiles & Tablets, Mobile Accessories, Computer Accessories, Laptops, Personal Care & Grooming, Audio & Video, Fitness Bands & Smartwatches, Best Deals",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475568991_175_Electronics.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c176"
+          },
+          "type": 5,
+          "data": {
+            "id": "176",
+            "title": "Mobiles & Tablets",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947236_mobile_02_01_01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c177"
+          },
+          "type": 5,
+          "data": {
+            "id": "177",
+            "title": "Mobile Accessories",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454934499_Mobile-Accessories.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c244"
+          },
+          "type": 5,
+          "data": {
+            "id": "244",
+            "title": "Computer Accessories",
+            "image": "http://cdn.grofers.com/app/images/category/large/1446189188_1.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c404"
+          },
+          "type": 5,
+          "data": {
+            "id": "404",
+            "title": "Laptops",
+            "image": "http://cdn.grofers.com/app/images/category/large/1452854019_laptop_mac_01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c452"
+          },
+          "type": 5,
+          "data": {
+            "id": "452",
+            "title": "Personal Care & Grooming",
+            "image": "http://cdn.grofers.com/app/images/category/large/1452516963_PCGrooming01.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c459"
+          },
+          "type": 5,
+          "data": {
+            "id": "459",
+            "title": "Audio & Video",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461415034_audio-and-video.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c471"
+          },
+          "type": 5,
+          "data": {
+            "id": "471",
+            "title": "Fitness Bands & Smartwatches",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461417621_Fitness-device.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c882"
+          },
+          "type": 5,
+          "data": {
+            "id": "882",
+            "title": "Best Deals",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 288,
+        "title": "Home & Office Needs",
+        "subtitle": "Kitchen & Dining, Stationery",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067303_288_Home--Office-Needs.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c296"
+          },
+          "type": 5,
+          "data": {
+            "id": "296",
+            "title": "Kitchen & Dining",
+            "image": "http://cdn.grofers.com/app/images/category/large/1446189349_Kitchen--Dining-.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c298"
+          },
+          "type": 5,
+          "data": {
+            "id": "298",
+            "title": "Stationery",
+            "image": "http://cdn.grofers.com/app/images/category/large/1453977733_Stationary.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 343,
+        "title": "Specials",
+        "subtitle": "Gold Coins, Bangles, Earrings, Necklaces, Nosepin, Pendants, Rings",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067298_343_Specials.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c321"
+          },
+          "type": 5,
+          "data": {
+            "id": "321",
+            "title": "Gold Coins",
+            "image": "http://cdn.grofers.com/app/images/category/large/1463023233_321.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c752"
+          },
+          "type": 5,
+          "data": {
+            "id": "752",
+            "title": "Bangles",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c753"
+          },
+          "type": 5,
+          "data": {
+            "id": "753",
+            "title": "Earrings",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c754"
+          },
+          "type": 5,
+          "data": {
+            "id": "754",
+            "title": "Necklaces",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c755"
+          },
+          "type": 5,
+          "data": {
+            "id": "755",
+            "title": "Nosepin",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c756"
+          },
+          "type": 5,
+          "data": {
+            "id": "756",
+            "title": "Pendants",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c757"
+          },
+          "type": 5,
+          "data": {
+            "id": "757",
+            "title": "Rings",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 406,
+        "title": "Festive Special",
+        "subtitle": "Navratri Special",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475246433_Navratri-Banner_1.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c886"
+          },
+          "type": 5,
+          "data": {
+            "id": "886",
+            "title": "Navratri Special",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 416,
+        "title": "Home Electricals",
+        "subtitle": "Lighting, Kitchen Appliances, Small Home Appliances, Best Offers",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475569034_416_Home_Electricals.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c417"
+          },
+          "type": 5,
+          "data": {
+            "id": "417",
+            "title": "Lighting",
+            "image": "http://cdn.grofers.com/app/images/category/large/1451468367_light.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c423"
+          },
+          "type": 5,
+          "data": {
+            "id": "423",
+            "title": "Kitchen Appliances",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462947894_kitchen.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c433"
+          },
+          "type": 5,
+          "data": {
+            "id": "433",
+            "title": "Small Home Appliances",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461819399_small-appliances10.1.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c881"
+          },
+          "type": 5,
+          "data": {
+            "id": "881",
+            "title": "Best Offers",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 531,
+        "title": "Large Appliances",
+        "subtitle": "Televisions, Refrigerators, Air Conditioners, Washing Machine, Microwave Oven & OTG, Extended Warranty Plans, Water Purifiers, Deals Corner",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475569056_531_Large_Appliances.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c532"
+          },
+          "type": 5,
+          "data": {
+            "id": "532",
+            "title": "Televisions",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454414735_Tv06-Resized.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c539"
+          },
+          "type": 5,
+          "data": {
+            "id": "539",
+            "title": "Refrigerators",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454413038_Fridge06-Resize.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c542"
+          },
+          "type": 5,
+          "data": {
+            "id": "542",
+            "title": "Air Conditioners",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454414287_AC_banner_4-1.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c548"
+          },
+          "type": 5,
+          "data": {
+            "id": "548",
+            "title": "Washing Machine",
+            "image": "http://cdn.grofers.com/app/images/category/large/1454413561_WashingMachine002.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c605"
+          },
+          "type": 5,
+          "data": {
+            "id": "605",
+            "title": "Microwave Oven & OTG",
+            "image": "http://cdn.grofers.com/app/images/category/large/1456395070_Microwave03.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c656"
+          },
+          "type": 5,
+          "data": {
+            "id": "656",
+            "title": "Extended Warranty Plans",
+            "image": "http://cdn.grofers.com/app/images/category/large/1459340358_warranty-plans.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c713"
+          },
+          "type": 5,
+          "data": {
+            "id": "713",
+            "title": "Water Purifiers",
+            "image": "http://cdn.grofers.com/app/images/category/large/1462786603_Water-Purifer.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c826"
+          },
+          "type": 5,
+          "data": {
+            "id": "826",
+            "title": "Deals Corner",
+            "image": "http://cdn.grofers.com/app/images/category/large/1469276246_826_Deals_Corner.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 650,
+        "title": "Organic & Gourmet",
+        "subtitle": "Beverages, Breakfast & Dairy, Chocolates & Snacks, Cooking & Baking, Jams & Spreads, Grocery & Staples, Processed Food, Sauces & Dressings, Home & Personal Care",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067284_650_Organic--Gourmet.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c771"
+          },
+          "type": 5,
+          "data": {
+            "id": "771",
+            "title": "Beverages",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467274489_Beverages.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c772"
+          },
+          "type": 5,
+          "data": {
+            "id": "772",
+            "title": "Breakfast & Dairy",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467274761_Breakfast__Dairy.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c773"
+          },
+          "type": 5,
+          "data": {
+            "id": "773",
+            "title": "Chocolates & Snacks",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467274857_Chocolates__Snacks.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c774"
+          },
+          "type": 5,
+          "data": {
+            "id": "774",
+            "title": "Cooking & Baking",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467280425_Cooking-n-baking-3.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c775"
+          },
+          "type": 5,
+          "data": {
+            "id": "775",
+            "title": "Jams & Spreads",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467275597_Jams--Spreads.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c776"
+          },
+          "type": 5,
+          "data": {
+            "id": "776",
+            "title": "Grocery & Staples",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467276291_GroceryStaples.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c777"
+          },
+          "type": 5,
+          "data": {
+            "id": "777",
+            "title": "Processed Food",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467276360_Processed-Food.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c778"
+          },
+          "type": 5,
+          "data": {
+            "id": "778",
+            "title": "Sauces & Dressings",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467276461_Sauces--Dressings.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c779"
+          },
+          "type": 5,
+          "data": {
+            "id": "779",
+            "title": "Home & Personal Care",
+            "image": "http://cdn.grofers.com/app/images/category/large/1467276539_Home--Personal-care.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 675,
+        "title": "Ice Cream",
+        "subtitle": "Bricks & Tubs, Sticks & Scoops",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067278_675_Ice-Cream.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c676"
+          },
+          "type": 5,
+          "data": {
+            "id": "676",
+            "title": "Bricks & Tubs",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461402135_BricksTubs.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c677"
+          },
+          "type": 5,
+          "data": {
+            "id": "677",
+            "title": "Sticks & Scoops",
+            "image": "http://cdn.grofers.com/app/images/category/large/1461402263_SticksScoops.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+  ,
+
+    {
+      "type": 1,
+      "layout_config":  {
+        "bg_color": "#DDDDDD"
+      },
+      "data": {
+        "id": 847,
+        "title": "Office Essentials",
+        "subtitle": "Pantry, Stationery, Housekeeping",
+        "image": "http://cdn.grofers.com/app/images/category/large/1475067258_847_Office-Essentials.jpg"
+      },
+      "objects": [
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c848"
+          },
+          "type": 5,
+          "data": {
+            "id": "848",
+            "title": "Pantry",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c849"
+          },
+          "type": 5,
+          "data": {
+            "id": "849",
+            "title": "Stationery",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+      ,
+
+
+
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=c850"
+          },
+          "type": 5,
+          "data": {
+            "id": "850",
+            "title": "Housekeeping",
+            "image": "http://cdn.grofer.it/app/images/placeholders/merchant.jpg"
+          }
+        }
+
+
+
+
+
+      ]
+
+    }
+
+
+
+
+
+
+
+
+
+  ,
+
+    {
+      "type": 8,
+      "data": {
+        "title": "",
+        "image": "",
+        "subtitle": ""
+      },
+      "action": {
+        "default_uri": "grofers://merchant?id=25959&restricted=false"
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ],
+  "data": {
+    "service_area": true,
+    "city_area": true
+  }
+}

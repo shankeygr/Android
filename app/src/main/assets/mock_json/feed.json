@@ -1,0 +1,518 @@
+{
+  "objects": [
+    {
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://category?id=527&category-level=0&restricted=false"
+          },
+          "data": {
+            "id": 111,
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg",
+            "title": "Never Run Out",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "type": "Merchant",
+            "type_id": 1,
+            "tnc_data": {
+              "title": "Offer Details",
+              "html_data": "<div style='font-size: 12px; color: #666666;'>Lorem <a href='grofers://cart'>ipsum dolor sit amet</a>, <b>no nominavi consectetuer vis</b>, <i>illum reprimique qui</i> ad <ul><li>liber</li> <li>zrilinterpretaris</li></ul> nam ut.</div>"
+            }
+          },
+          "type": 4
+        },
+        {
+          "action": {
+            "default_uri": "grofers://category?id=527&category-level=0&restricted=false"
+          },
+          "data": {
+            "id": 111,
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1474135599_BIGBOX-App.jpg",
+            "title": "Never Run Out",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "type": "Merchant",
+            "type_id": 1
+          },
+          "type": 4
+        },
+        {
+          "action": {
+            "default_uri": "grofers://category?id=527&category-level=0&restricted=false"
+          },
+          "data": {
+            "id": 111,
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1474135599_BIGBOX-App.jpg",
+            "title": "Never Run Out",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "type": "Merchant",
+            "type_id": 1
+          },
+          "type": 4
+        },
+        {
+          "action": {
+            "default_uri": "grofers://category?id=527&category-level=0&restricted=false"
+          },
+          "data": {
+            "id": 111,
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1474135599_BIGBOX-App.jpg",
+            "title": "Never Run Out",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "type": "Merchant",
+            "type_id": 1
+          },
+          "type": 4
+        },
+        {
+          "action": {
+            "default_uri": "grofers://category?id=527&category-level=0&restricted=false"
+          },
+          "data": {
+            "id": 111,
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1474135599_BIGBOX-App.jpg",
+            "title": "Never Run Out",
+            "subtitle": "Delivery by Tomorrow, 1 PM - 3 PM",
+            "type": "Merchant",
+            "type_id": 1
+          },
+          "type": 4
+        }
+      ],
+      "layout_config": {
+        "ph_color": "#DDDDDD"
+      },
+      "type": 0
+    },
+    {
+      "action": {
+        "default_uri": null
+      },
+      "data": {
+        "title": "We have chosen the best store for you",
+        "subtitle": "You can always change your store",
+        "action_text": "Ok, Got it",
+        "type_id": 2,
+        "type": "tooltip",
+        "id": 2
+      },
+      "layout_config": {
+        "persistent": true,
+        "bg_color": "#4cae1a",
+        "action_bg_color": "#48a519",
+        "margin_top": 8,
+        "margin_bottom": 0
+      },
+      "type": 2
+    },
+    {
+      "action": {
+        "default_uri": null
+      },
+      "data": {
+        "title": "You are shopping from a new store",
+        "subtitle": "The stores you've ...",
+        "action_text": "Ok, Got it",
+        "type_id": 1,
+        "type": "tooltip",
+        "id": 3
+      },
+      "layout_config": {
+        "persistent": false,
+        "bg_color": "#555555",
+        "action_bg_color": "#000000"
+      },
+      "type": 2
+    },
+    {
+      "data": {
+        "id": 1,
+        "title": "Breakfast and Dairy",
+        "subtitle": "Biscuits, Juice, Egg ..."
+      },
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://category?expr=%7B%22or%22%3A%20%5B%22p123%22%2C%20%22p17178%22%5D%7D&restricted=false"
+          },
+          "data": {
+            "id": 2,
+            "title": "Milk & Milk Products",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Butter & Cheese",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#DDEE11"
+      },
+      "type": 1
+    },
+    {
+      "action": {
+        "default_uri": null
+      },
+      "data": {
+        "title": "We have chosen the best store for you",
+        "subtitle": "You can always change your store",
+        "action_text": "Ok, Got it",
+        "type_id": 2,
+        "type": "tooltip",
+        "id": 4
+      },
+      "layout_config": {
+        "persistent": false,
+        "bg_color": "#4cae1a",
+        "action_bg_color": "#48a519"
+      },
+      "type": 2
+    },
+    {
+      "action": {
+        "default_uri": "grofers://merchant?id=25959&restricted=false"
+      },
+      "data": {
+        "name": "Super Store, Gurgaon",
+        "id": 20644,
+        "rating": 4.2,
+        "free_delivery_value": "₹350, Cash Only",
+        "delivered_by_text": "Delivered by Grofers",
+        "eta_value": "Tomorrow, 11 AM",
+        "eta_title": "DELIVERY BY",
+        "free_delivery_title": "FREE DELIVERY ABOVE",
+        "change_store_text": "Change Store",
+        "delivered_by_type": "grofers",
+        "min_delivery": "200",
+        "toast_text": "There are no other stores nearby that sell this product.",
+        "offer_placeholder": {
+          "text_color": "#55AC20",
+          "text": "Flat 10% cashback on every order. Code: SUPER10"
+        },
+        "past_orders": [
+          {
+            "text": "100 items",
+            "color": "#e96125"
+          },
+          {
+            "text": " "
+          },
+          {
+            "text": "ordered in the past"
+          }
+        ],
+        "product_images": [
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184279.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_184281.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_329102.jpg?1474208654",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_269420.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg",
+          "http://cdn.grofers.com/app/images/products/full_screen/pro_192057.jpg"
+        ]
+      },
+      "layout_config": {
+        "type": 507
+      },
+      "type": 3
+    },
+    {
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 6
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#DDEE11"
+      },
+      "type": 9
+    },
+    {
+      "data": {
+        "title": "Grofers Big Box",
+        "image": "http://cdn.grofers.com/images/Grofers-ka-big-box.png",
+        "subtitle": "Save ₹600 on monthly grocery shopping. Click here."
+      },
+      "action": {
+        "default_uri": "grofers://merchant?id=25959&restricted=false"
+      },
+      "type": 8
+    },
+    {
+      "data": {
+        "id": 1,
+        "title": "Grocery & Staples & Grocery & Staples & Grocery & Staples & Grocery & Staples & Grocery & Staples & Grocery & Staples",
+        "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg",
+        "subtitle": "Biscuits, Juice, Egg ..."
+      },
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Rice & FLour",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Edible oils",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Daals",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Ghee",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#fffbc7"
+      },
+      "type": 1
+    },
+    {
+      "data": {
+        "id": 1,
+        "title": "Breakfast & Dairy",
+        "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg",
+        "subtitle": "Biscuits, Juice, Egg ..."
+      },
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://merchant?id=20644"
+          },
+          "data": {
+            "id": 2,
+            "title": "Juices",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Biscuits",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Breads",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Eggs",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#fffbc7"
+      },
+      "type": 1
+    },
+    {
+      "data": {
+        "id": 1,
+        "title": "Fruits & Vegetables",
+        "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg",
+        "subtitle": "Biscuits, Juice, Egg ..."
+      },
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Juices",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Biscuits",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Breads",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Eggs",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Eggs",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#fffbc7"
+      },
+      "type": 1
+    },
+    {
+      "data": {
+        "id": 1,
+        "title": "Fruits & Vegetables",
+        "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg",
+        "subtitle": "Biscuits, Juice, Egg ..."
+      },
+      "objects": [
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Juices",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Biscuits",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": "grofers://"
+          },
+          "data": {
+            "id": 2,
+            "title": "Breads",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Eggs",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        },
+        {
+          "action": {
+            "default_uri": ""
+          },
+          "data": {
+            "id": 3,
+            "title": "Eggs",
+            "image": "http://cdn.grofers.com/app/images/promotions/merchant/1473949983_NRO-16-18Sep_IntroBanner1.jpg"
+          },
+          "type": 5
+        }
+      ],
+      "layout_config": {
+        "bg_color": "#fffbc7"
+      },
+      "type": 1
+    },
+    {
+      "type": 14
+    }
+  ],
+  "data": {
+    "service_area": true,
+    "city_area": true
+  }
+}
