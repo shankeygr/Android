@@ -1,9 +1,9 @@
 {
   "meta": {
     "aws": {
-      "access_key": "Pp5ry6gmbKY+i3W/8JU2E6Om3X12+12P2tTESOPq",
-      "key_id": "AKIAI2D5DVW6K5U3BACA",
-      "s3_bucket": "grofers-consumer.support"
+      "access_key": "",
+      "key_id": "",
+      "s3_bucket": ""
     }
   },
   "help": [
